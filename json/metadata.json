@@ -1,14 +1,14 @@
 [
   {
-    "../articles/96Brockington.pdf": {
-      "DOI": null,
-      "Title": "Not found",
-      "Author": "Not found",
+    "../articles/16DavidNetanyahuWolf.pdf": {
+      "DOI": "10.1007/978-3-319-44781-0_11",
+      "Title": "DeepChess: End-to-End Deep Neural Network for Automatic Learning in Chess",
+      "Author": "Eli (Omid) David and Nathan S. Netanyahu and Lior Wolf",
       "Abstract": "Abstract. We present an end-to-end learning method for chess, relying on\nleep neural networks. Without any a priori knowledge, in particular without\nany knowledge regarding the rules of chess, a deep neural network is trained\nusing a combination of unsupervised pretraining and supervised training. The\nunsupervised training extracts high level features from a given position, and\nthe supervised training learns to compare two chess positions and select the\nmore favorable one. The training relies entirely on datasets of several million\nchess games, and no further domain specific knowledge is incorporated.\nThe experiments show that the resulting neural network (referred to as\nDeepChess) is on a par with state-of-the-art chess playing programs, which\nhave been developed through many years of manual feature selection and\ntuning. DeepChess is the first end-to-end machine learning-based method\nthat results in a grandmaster-level chess playing performance.\n"
     }
   },
   {
-    "../articles/96Brockington.pdf": {
+    "../articles/90GeorgeSchaeffer.pdf": {
       "DOI": "10.3233/icg-1990-13303",
       "Title": "Chunking for Experience",
       "Author": "Michael George and Jonathan Schaeffer",
@@ -16,7 +16,7 @@
     }
   },
   {
-    "../articles/96Brockington.pdf": {
+    "../articles/91FeldmannMysliwietzMonien.pdf": {
       "DOI": null,
       "Title": "A Fully Distributed Chess Program",
       "Author": "R. Feldmann and P. Mysliwietz and B. Monien",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "../articles/96Brockington.pdf": {
+    "../articles/83CondonThompson.pdf": {
       "DOI": "10.1007/978-1-4757-1968-0_28",
       "Title": "Belle Chess Hardware",
       "Author": "Joe Condon and Ken Thompson",
@@ -32,7 +32,7 @@
     }
   },
   {
-    "../articles/96Brockington.pdf": {
+    "../articles/07Beal.pdf": {
       "DOI": null,
       "Title": "Intelligent Systems, Artificial and Human",
       "Author": "Don Beal",
@@ -40,40 +40,40 @@
     }
   },
   {
-    "../articles/96Brockington.pdf": {
-      "DOI": null,
-      "Title": "Not found",
-      "Author": "Not found",
+    "../articles/09CiancariniFavini 1.pdf": {
+      "DOI": "10.1145/1536513.1536560",
+      "Title": "Plagiarism detection in game-playing software",
+      "Author": "Paolo Ciancarini and Gian Piero Favini",
       "Abstract": "ABSTRACT\nPlagiarism is a growing issue in the field of game-playing\nsoftware. As new ideas and technologies are successfully im-\nplemented in free and commercial programs, they will be\nreused and revisited by later programs until they become\n"
     }
   },
   {
-    "../articles/96Brockington.pdf": {
-      "DOI": null,
-      "Title": "Not found",
-      "Author": "Not found",
+    "../articles/ICGA_J_34_2_HHB_Zugzwangs_in_Chess_Studies.pdf": {
+      "DOI": "10.3233/icg-2011-34205",
+      "Title": "Zugzwangs in chess studies",
+      "Author": "G. Haworth and H. M. J. F. van der Heijden and E. Bleicher",
       "Abstract": "ABSTRACT\nVan der Heijden\u2019s ENDGAME STUDY DATABASE IV, HHDBIV, is the definitive collection of\n76,132 chess studies. The zugzwang position or zug, one in which the side to move would\nprefer not to, is a frequent theme in the literature of chess studies. In this third data-mining of\nHHDBIV, we report on the occurrence of sub-7-man zugs there as discovered by the use of\nCQL and Nalimov endgame tables (EGTs). We also mine those Zugzwang Studies in which a\nzug more significantly appears in both its White-to-move (wtm) and Black-to-move (btm)\nforms. We provide some illustrative and extreme examples of zugzwangs in studies.\n"
     }
   },
   {
-    "../articles/96Brockington.pdf": {
-      "DOI": null,
+    "../articles/76Panek.pdf": {
+      "DOI": "10.2307/2924872",
       "Title": "\"Maelzel's Chess-Player\", Poe's First Detective Mistake",
       "Author": "Leroy Panek",
       "Abstract": "Not found"
     }
   },
   {
-    "../articles/96Brockington.pdf": {
-      "DOI": null,
-      "Title": "Not found",
-      "Author": "Not found",
+    "../articles/19Kamlish.pdf": {
+      "DOI": "10.1007/978-94-009-5044-3_16",
+      "Title": "SentiMATE: Learning to play Chess through Natural Language Processing",
+      "Author": "Isaac Kamlish and Isaac Bentata Chocron and Nicholas McCarthy",
       "Abstract": "Abstract\nWe present SentiMATE, a novel end-to-end Deep Learning\nmodel for Chess, employing Natural Language Processing\nthat aims to learn an effective evaluation function assessing\nmove quality. This function is pre-trained on the sentiment\nof commentary associated with the training moves, and is\nused to guide and optimize the agent\u2019s game-playing decision\nmaking. The contributions of this research are three-fold: we\nbuild and put forward both a classifier which extracts com-\nmentary describing the quality of Chess moves in vast com-\nmentary datasets, and a Sentiment Analysis model trained on\nChess commentary to accurately predict the quality of said\nmoves, to then use those predictions to evaluate the optimal\nnext move of a Chess agent. Both classifiers achieve over\n90% classification accuracy. Lastly, we present a Chess en-\ngine, SentiMATE, which evaluates Chess moves based on a\npre-trained sentiment evaluation function. Our results exhibit\nstrong evidence to support our initial hypothesis - \u201cCan Nat-\nural Language Processing be used to train a novel and sam-\nple efficient evaluation function in Chess Engines?\u201d - as we\nintegrate our evaluation function into modern Chess engines\nand play against agents with traditional Chess move evalua-\ntion functions, beating both random agents and a DeepChess\nimplementation at a level-one search depth - representing the\nnumber of moves a traditional Chess agent (employing the\nalpha-beta search algorithm) looks ahead in order to evaluate\na given chess state.\n"
     }
   },
   {
     "../articles/96Brockington.pdf": {
-      "DOI": null,
+      "DOI": "10.3233/icg-1996-19303",
       "Title": "A taxonomy of parallel game-tree search algorithms",
       "Author": "Brockington, Mark",
       "Abstract": "Not found"
