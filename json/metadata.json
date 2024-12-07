@@ -49,9 +49,9 @@
   },
   {
     "../articles/ICGA_J_34_2_HHB_Zugzwangs_in_Chess_Studies.pdf": {
-      "DOI": "10.3233/icg-2011-34205",
-      "Title": "Zugzwangs in chess studies",
-      "Author": "G. Haworth and H. M. J. F. van der Heijden and E. Bleicher",
+      "DOI": null,
+      "Title": "Not found",
+      "Author": "Not found",
       "Abstract": "ABSTRACT\nVan der Heijden\u2019s ENDGAME STUDY DATABASE IV, HHDBIV, is the definitive collection of\n76,132 chess studies. The zugzwang position or zug, one in which the side to move would\nprefer not to, is a frequent theme in the literature of chess studies. In this third data-mining of\nHHDBIV, we report on the occurrence of sub-7-man zugs there as discovered by the use of\nCQL and Nalimov endgame tables (EGTs). We also mine those Zugzwang Studies in which a\nzug more significantly appears in both its White-to-move (wtm) and Black-to-move (btm)\nforms. We provide some illustrative and extreme examples of zugzwangs in studies.\n"
     }
   },
