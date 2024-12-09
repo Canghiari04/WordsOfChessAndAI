@@ -19,8 +19,8 @@
   },
   {
     "../articles/83CondonThompson.pdf": {
-      "Abstract": "Not found",
-      "Introduction": "Not found"
+      "Abstract": null,
+      "Introduction": null
     }
   },
   {
@@ -38,24 +38,24 @@
   {
     "../articles/ICGA_J_34_2_HHB_Zugzwangs_in_Chess_Studies.pdf": {
       "Abstract": "ABSTRACT\n\nVan der Heijden\u2019s ENDGAME STUDY DATABASE IV, HHDBIV, is the definitive collection of\n76,132 chess studies. The zugzwang position or zug, one in which the side to move would\nprefer not to, is a frequent theme in the literature of chess studies. In this third data-mining of\nHHDBIV, we report on the occurrence of sub-7-man zugs there as discovered by the use of\nCQL and Nalimov endgame tables (EGTs). We also mine those Zugzwang Studies in which a\nzug more significantly appears in both its White-to-move (wtm) and Black-to-move (btm)\nforms. We provide some illustrative and extreme examples of zugzwangs in studies.\n\n",
-      "Introduction": "1. INTRODUCTION\n\nThe combination of Van der Heijden\u2019s (2010) study database HHDBIV, Nalimov\u2019s sub-7-man (s7m) endgame\ntables (EGTs), and Bleicher\u2019s (2011) endgame analysis service has already enabled the authors (Bleicher et al,\n"
+      "Introduction": "1. INTRODUCTION\n\nThe combination of Van der Heijden\u2019s (2010) study database HHDBIV, Nalimov\u2019s sub-7-man (s7m) endgame\ntables (EGTs), and Bleicher\u2019s (2011) endgame analysis service has already enabled the authors (Bleicher et al,\n2010) to partially check the correctness of the studies\u2019 s7m mainlines. Further, given that uniqueness of\nsolution-move is a key property of studies, we have also identified (Haworth et al, 2011) the frequency of equi-\noptimal and sub-optimal moves in the studies\u2019 s7m mainlines. The impact of less than absolute uniqueness on\nthe technical and aesthetic qualities of the studies remains a question for the future, best addressed by a\ncombination of algorithmic analysis (Haworth, 2009) and artistic judgement.\n\nThe zugzwang position or zug, in which the side to move would rather not, has been a fascination for over one\nthousand years because of its intrinsic irony, its rarity, its effect on play and latterly because it misleads chess\nengines which use the null move heuristic. Zugs are more likely if there are fewer move options so they are\ndenser in endgames with fewer men, precisely the zone where computers create EGTs. There are 25,105 sub-6-\nman zugs (Haworth et al, 2001) and 906,952 6-man zugs (Bleicher and Haworth, 2009), relatively fewer. The\npresence of Pawns and Knights, less flexible than line pieces, make zugs more prevalent.\n\no \u201c rer FF bile) will eit\nx A A a6\n\nym & So Man oD\n\u201clw & B\n\na\n42 \u00a9\nbb i ca aN\n\nac\naa) Philidor (1777); ab) KPK; ba) KRK, drawn with null move; ca)Nunn (1995) #1;\nac) Ar Razi(850-) bb) Polerio (1590) cb)a \u20185-1\u2019 zug\n\nFigure 1. Some positions illustrating the disadvantage of having the move.\u201d\n\nFig.1 includes some modest challenges for the reader, discussed later. Nunn (1995, p6) states that \u201czugzwang\npositions often have an importance far out of proportion to their small numbers\u201d. His first endgame trilogy\n(Nunn, 1992, 1994, 1995) consistently features the zug theme as do reviews of EGTs (Tamplin and Haworth,\n2001). Many KPK and KRK positions (Figs. lab and 1ba) would be drawn if the defender could pass. The\n\n' The University of Reading, Berkshire, UK, RG6 6AH. email: guy.haworth@bnc.oxon.org.\n> HHbBIV indices: aa) #956 (Nunn, 1994, #63), ac) #374, bb) #415 and ca) #55216 (Nunn, 1995, #376)\nZugzwangs in Chess Studies 83\n\nendgame study magazine EG mentions the words zugzwang, zug or zz 1,914 times over the 152 issues of its\nfirst 38 years (Costeff, 2011) and frequently published Rasmussen\u2019s endgame-specific lists of zugzwangs\nmined from Ken Thompson\u2019s s6m EGTs (Valois, 2011).\n\nThis note reports the identification, classification and distribution of all\u2019 zugs in the s7m mainlines of\nHHDBIV\u2019s studies. Further, all the Zugzwang Studies (Beasley, 2000), in which at least one s7m zug appears\nwith both wtm and btm, have been identified and classified according to the types of those zugs.\n\n"
     }
   },
   {
     "../articles/76Panek.pdf": {
-      "Abstract": "Not found",
-      "Introduction": "Not found"
+      "Abstract": null,
+      "Introduction": null
     }
   },
   {
     "../articles/19Kamlish.pdf": {
-      "Abstract": "Not found",
-      "Introduction": "Not found"
+      "Abstract": null,
+      "Introduction": null
     }
   },
   {
     "../articles/96Brockington.pdf": {
-      "Abstract": "Not found",
+      "Abstract": null,
       "Introduction": "1 INTRODUCTION\n\nIn the last twenty years, a number of articles and theses have been written that contain innovative parallel\ngame-tree search algorithms. The authors of the parallel algorithms have shown how their work is unique\nand interesting. In some cases, this has been shown by classifying other algorithms by listing implementation\ndetails (Bal and van Renesse, 1986; Ciancarini, 1994). To the author\u2019s knowledge, no attempt has been made\nto classify the algorithms based solely on their algorithmic properties. A taxonomy would make it easy to\nascertain what has and has not been accomplished in parallel game-tree search. The presentation of this\ntype of taxonomy is the main contribution of this paper.\n\nThe taxonomy will be broken into two major categories: a/-based algorithms, and algorithms based on\nother search paradigms (SSS*, ER, and theoretical methods). For the former category, a table is given to\nisolate the fundamental differences between the algorithms. The table is divided into two parts: the first\npart contains characteristics of the af-based algorithms, while the second part contains details about an\nimplementation of each algorithm. Section 2 describes the various columns given in the table, and then gives\nsome brief details on the algorithms contained therein.\n\nThe algorithms based on other search paradigms are given in Section 3. Due to the varied nature of the\nmethods, a brief description is given for each of the algorithms and no attempt has been made to categorize\nthem to the same extent as the af-based algorithms. The implementation details have not been organized\ninto a table, since some of the algorithms given are of a theoretical nature and have not been implemented\nor simulated.\n\nThe final section deals with some conclusions that can be drawn from the taxonomy.\n\n"
     }
   }

@@ -28,7 +28,7 @@
       "DOI": "10.1007/978-1-4757-1968-0_28",
       "Title": "Belle Chess Hardware",
       "Author": "Joe Condon and Ken Thompson",
-      "Abstract": "Not found"
+      "Abstract": null
     }
   },
   {
@@ -60,7 +60,7 @@
       "DOI": "10.2307/2924872",
       "Title": "\"Maelzel's Chess-Player\", Poe's First Detective Mistake",
       "Author": "Leroy Panek",
-      "Abstract": "Not found"
+      "Abstract": null
     }
   },
   {
@@ -68,7 +68,7 @@
       "DOI": "10.1007/978-94-009-5044-3_16",
       "Title": "SentiMATE: Learning to play Chess through Natural Language Processing",
       "Author": "Isaac Kamlish and Isaac Bentata Chocron and Nicholas McCarthy",
-      "Abstract": "Not found"
+      "Abstract": null
     }
   },
   {
@@ -76,7 +76,7 @@
       "DOI": "10.3233/icg-1996-19303",
       "Title": "A taxonomy of parallel game-tree search algorithms",
       "Author": "Brockington, Mark",
-      "Abstract": "Not found"
+      "Abstract": null
     }
   }
 ]
