@@ -1,0 +1,604 @@
+[
+   {
+      "01Albers.grobid.tei.xml": {
+         "DOI": "10.1006/anbe.2000.1571",
+         "Title": "Elo-rating as a tool in the sequential estimation of dominance strengths",
+         "Author": [
+            "Paul Albers",
+            "Han De Vries"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01AmidzicRiehle.pdf": {
+         "DOI": "10.1038/35088119",
+         "Title": "Pattern of focal gamma-bursts in chess players",
+         "Author": [
+            "Ognjen Amidzic",
+            "Hartmut Riehle",
+            "Thorsten Fehr",
+            "Christian Wienbruch",
+            "Thomas Elbert"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01Andrews.grobid.tei.xml": {
+         "DOI": "10.1016/s1090-5138(00)00059-3",
+         "Title": "The psychology of social chess and the evolution of attribution mechanisms: explaining the fundamental attribution error",
+         "Author": [
+            "Paul Andrews"
+         ],
+         "Abstract": "Theory of mind is the field devoted to understanding how organisms discern the mental states of others. Because mental states are not directly observable, they can only be inferred from observable features of the actor (such as behavior) and the situational context that the actor is in. Social psychologists, who study theory of mind processes under the rubric of attribution research, have shown that people often make a logical error of inference: The ``fundamental attribution error'' (FAE) is the tendency to assume that an actor's behavior and mental state correspond to a degree that is logically unwarranted by the situation. The social environment in which theory of mind capacities evolved may have influenced attributional processing in ways that could explain the error. In particular, the error could be caused by a psyche that is designed (1) to consider only those noncorresponding mental states (such as deception) that could have fitness consequences to the mind reader; (2) to bias inferences in a way that reduces the costs of erroneous inferences; or (3) to bias inferences in a way that yields reputational benefits. The existing literature is reviewed in light of these hypotheses."
+      }
+   },
+   {
+      "01BealSmith.grobid.tei.xml": {
+         "DOI": "10.1016/s0304-3975(00)00078-5",
+         "Title": "Temporal di erence learning applied to game playing and the results of application to shogi",
+         "Author": [
+            "Donald Beal",
+            "Martin Smith"
+         ],
+         "Abstract": "This paper describes the application of temporal di erence (TD) learning to minimax searches in general, and presents results from shogi. TD learning is used to adjust the weights for evaluation features over the course of a series of games, starting from arbitrary initial values. For some games, to obtain weights accurate enough for high-performance play will require the TD learning phase to make use of minimax searches. A theoretical description of TD applied to minimax search is given, and we discuss how the theoretical characteristics of the method interact with practical considerations. These include the depth of search appropriate for successful learning and the use of self-play to enable the algorithm to be independent of human knowledge. We then report on experiments that obtained values for use in shogi-playing programs. Unlike chess, shogi has no generally agreed standardized set of values for pieces, so there is more need for machine learning. We compare our machine-learnt values, obtained without any human knowledge input, with hand-crafted values. TD learning was successful in obtaining values that performed well in matches against hand-crafted values."
+      }
+   },
+   {
+      "01BlondMcMullen.pdf": {
+         "DOI": "10.1016/s0732-0671(01)80034-1",
+         "Title": "Developing Strategic Thinking in Welfare-To-Work Recipients",
+         "Author": [
+            "Kara Blond",
+            "Page McCullen",
+            "Nicole Reynolds"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01BudAlbrechtNicholsonZuckerman a.grobid.tei.xml": {
+         "DOI": "10.1016/0375-9601(93)90827-m",
+         "Title": "Information-Theoretic Advisors in Invisible Chess",
+         "Author": [
+            "A Bud",
+            "D Albrecht",
+            "A Nicholson",
+            "I Zukerman"
+         ],
+         "Abstract": "Making decisions under uncertainty remains a central problem in AI research. Unfortunately, most uncertain real-world problems are so complex that progress in them is extremely difficult. Games model some elements of the real world, and offer a more controlled environment for exploring methods for dealing with uncertainty. Chess and chesslike games have long been used as a strategically complex test-bed for general AI research, and we extend that tradition by introducing an imperfect information variant of chess with some useful properties such as the ability to scale the amount of uncertainty in the game. We discuss the complexity of this game which we call invisible chess, and present results outlining the basic game. We motivate and describe the implementation and application of two information-theoretic advisors, and describe our decision-theoretic approach to combining these information-theoretic advisors with a basic strategic advisor. Finally we discuss promising preliminary results that we have obtained with these advisors."
+      }
+   },
+   {
+      "01Buttazzo.pdf": {
+         "DOI": "10.1109/2.933500",
+         "Title": "Artificial consciousness: utopia or real possibility? ",
+         "Author": [
+            "Giorgio Buttazzo"
+         ],
+         "Abstract": "ince the beginnings of computer technology, researchers have speculated about the possibility of building smart machines that could compete with human intelligence. Given the current pace of advances in artificial intelligence and neural computing, such an evolution seems to be a more concrete possibility. Many people now believe that artificial consciousness is possible and that, in the future, it will emerge in complex computing machines. However, a discussion of artificial consciousness gives rise to several philosophical issues:"
+      }
+   },
+   {
+      "01Calvo.grobid.tei.xml": {
+         "DOI": "10.1177/0002764215613406",
+         "Title": "The Oldest Chess Pieces in Europe",
+         "Author": [
+            "Ricardo Calvo"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01CharnessReingoldPomplunStampe.pdf": {
+         "DOI": "10.3758/bf03206384",
+         "Title": "The perceptual aspect of skilled performance in chess: Evidence from eye movements",
+         "Author": [
+            "Neil Charness",
+            "Eyal Reingold",
+            "Marc Pomplun",
+            "Dave Stampe"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01DaileyLeiserson.pdf": {
+         "DOI": "10.1016/j.entcom.2013.10.002",
+         "Title": "Using Cilk to Write Multiprocessor Chess Programs",
+         "Author": [
+            "Don Dailey",
+            "Charles Leiserson"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01Dorfmuller.grobid.tei.xml": {
+         "DOI": "10.1109/isar.2001.970515",
+         "Title": "Finger tracking for interaction in augmented environments",
+         "Author": [
+            "Klaus Dorfm\u00fcller-Ulhaas",
+            "Dieter Schmalstieg"
+         ],
+         "Abstract": "Optical tracking systems allow three-dimensional input for virtual environment applications with high precision and without annoying cables. Spontaneous and intuitive interaction is possible through gestures. In this paper, we present a finger tracker that allows gestural interaction and is simple, cheap, fast, robust against occlusion and accurate. It is based on a marked glove, a stereoscopic tracking system and a kinematic 3-d model of the human finger. Within our augmented reality application scenario, the user is able to grab, translate, rotate, and release objects in an intuitive way. We demonstrate our tracking system in an augmented reality chess game allowing a user to interact with virtual objects."
+      }
+   },
+   {
+      "01Ewerhart.grobid.tei.xml": {
+         "DOI": "10.1006/game.1999.0763",
+         "Title": "Chess-like Games Are Dominance Solvable in at Most Two Steps",
+         "Author": [
+            "Christian Ewerhart"
+         ],
+         "Abstract": "We show that strictly competitive, finite games of perfect information that may end in one of three possible ways can be solved by applying only two rounds of elimination of dominated strategies."
+      }
+   },
+   {
+      "01FangHsuHsu.grobid.tei.xml": {
+         "DOI": "10.1007/3-540-45579-5_7",
+         "Title": "Construction of Chinese Chess Endgame Databases by Retrograde Analysis",
+         "Author": [
+            "Haw-Ren Fang",
+            "Tsan-Sheng Hsu",
+            "Shun-Chin Hsu"
+         ],
+         "Abstract": "Retrograde analysis is well-known and has been successfully developed in the design of Western chess 1 endgame databases. However, there is little achievement using this technique in the construction of Chinese chess endgame databases. Although the two types of chess have the same number of pieces, similar individual characteristics for pieces, and comparable scales of the size of the boards, the fundamental differences in their playing rules lead to different construction schemes and results of endgame databases. In this paper, we describe our approach to the construction of Chinese Chess Endgame Databases when only one of the players possesses attacking piece(s). We show the results we have in constructing and analyzing a set of 151 endgame databases with a total of at most two attacking pieces, four defending pieces and two Kings. Our databases can be used by Chinese chess computer playing systems and computer aided Chinese chess training systems."
+      }
+   },
+   {
+      "01Ferguson.grobid.tei.xml": {
+         "DOI": "10.1080/00150517.1980.12430138",
+         "Title": "A Note on Dawson's Chess",
+         "Author": [
+            "Thomas Ferguson"
+         ],
+         "Abstract": "Among many imaginative fairy chess problems of T. R. Dawson (1935), Problem 80 asks for the solution of a game that has become to be known as Dawson's Chess. Given two equal lines of opposing Pawns, White on 3rd rank, Black on 5th, n adjacent files, White to play, at losing game, what is the result? It is understood that a capture must be made when possible. In terms of removing counters from piles, the rules may be described as follows: (1) a pile consisting of a single counter may be removed, (2) two counters may be removed from any pile, and (3) three counters may be removed from any pile and if desired that pile may be split into two parts. This game is a member of the class of octal games of Guy and Smith (1956)-specifically .137 in their notation. Under the rule that the last player to move wins, Guy and Smith show that the game has a remarkable analysis with a Grundy function eventually periodic of period 34."
+      }
+   },
+   {
+      "01FierkeNicholson.grobid.tei.xml": {
+         "DOI": "10.1080/13600820124575",
+         "Title": "Divided by a Common Language: Formal and Constructivist Approaches to Games",
+         "Author": [
+            "K Fierke",
+            "Michael Nicholson",
+            "Peter Katzenstein",
+            "Robert Keohane",
+            "Stephen Krasner"
+         ],
+         "Abstract": "Neither [rationalism nor constructivism] is adequate to cover all aspects of social reality. But at one critical point they are joined. Both recognise\u00d0 constructivism as a central research project and rationalism as a background condition\u00d0 that human beings operate in a socially constructed environment, which changes over time. Hence, both analytical perspectives focus in one way or another on common knowledge. . ."
+      }
+   },
+   {
+      "01Furnkrantz.grobid.tei.xml": {
+         "DOI": "10.1007/978-0-387-30164-8_504",
+         "Title": "Bibliography on Machine Learning in Strategic Game Playing",
+         "Author": [
+            "Johannes F\u00fcrnkranz"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01Glickman a.grobid.tei.xml": {
+         "DOI": "10.1080/02664760120059219",
+         "Title": "Dynamic paired comparison models with stochastic variances",
+         "Author": [
+            "Mark Glickman"
+         ],
+         "Abstract": "In paired comparison experiments, the worth or merit of a unit is measured through comparisons against other units. When paired comparison outcomes are collected over time and the merits of the units may be changing, it is often convenient to assume the data follow a non-linear state-space model. Typical paired comparison state-space models that assume a \u00ae xed (unknown) autoregressive variance do not account for the possibility of sudden changes in the merits. This is a particular concern, for example, in modeling cognitive ability in human development; cognitive ability not only changes over time, but also can change abruptly. We explore a particular extension of conventional state-space models for paired comparison data that allows the state variance to vary stochastically. Models of this type have recently been developed and applied to modeling \u00ae nancial data, but can be seen to have applicability in modeling paired comparison data. A \u00ae ltering algorithm is also derived that can be used in place of likelihood-based computations when the number of objects being compared is large. Applications to National Football League game outcomes and chess game outcomes are presented."
+      }
+   },
+   {
+      "01Glickman b.pdf": {
+         "DOI": "10.1061/9780784411193.ch03",
+         "Title": "The USCF Rating System",
+         "Author": [
+            "Mark Glickman"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01Gobet.grobid.tei.xml": {
+         "DOI": "10.1111/1467-9450.00225",
+         "Title": "Chunk hierarchies and retrieval structures: Comments on Saariluoma and",
+         "Author": [
+            "Laine Gobet",
+            "Fernand Gobet"
+         ],
+         "Abstract": "Comments on Saariluoma"
+      }
+   },
+   {
+      "01GobetLane.pdf": {
+         "DOI": "10.1007/978-1-4419-1428-6_1731",
+         "Title": "Chinking Mechanisms in Human Learning",
+         "Author": [
+            "Fernand Gobet"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01HamiltonMilerOtt.grobid.tei.xml": {
+         "DOI": "10.21236/ada300210",
+         "Title": "Challenges in Applying Game Theory to the Domain of Information Warfare \u2020",
+         "Author": [
+            "Samuel Hamilton",
+            "Wendy Miller",
+            "Allen Ott",
+            "O Sami Saydjari"
+         ],
+         "Abstract": "There are significant advantages to utilizing game theory in the domain of information warfare. The algorithms sculpted to create programs capable of beating some of the best humans in the world in games such as chess and backgammon provide the ability to analyze millions of possibilities, model opponent characteristics, and selfgenerate what-if scenarios. Unfortunately, the difference between the domain of information warfare and traditional game domains make application of some of these techniques challenging. In this paper, we identify the major challenges presented by the domain of information warfare, and how these challenges interact with traditional game theoretic techniques."
+      }
+   },
+   {
+      "01Haworth a.grobid.tei.xml": {
+         "DOI": "10.3233/icg-2005-28304",
+         "Title": "-MAN CHESS DATA",
+         "Author": [
+            "G Haworth"
+         ],
+         "Abstract": "This reports the work of Karrer and Wirth in identifying percentage results and, respectively, the Depth to Mate (DTM) and Depth to Conversion (DTC) data in all 2-5-man chess endgames. 1."
+      }
+   },
+   {
+      "01Haworth b.grobid.tei.xml": {
+         "DOI": "10.3233/icg-2001-24305",
+         "Title": "Discarding Like Pieces 1 DISCARDING LIKE PIECES",
+         "Author": [
+            "G Haworth"
+         ],
+         "Abstract": "The guideline of 'discarding like men' to estimate the merit of a chess position is well known. This note corrects a previous reference to a citation of it-and compares it with some statistics. After discussing 5-man positions, Beasley and Whitworth (1996) cite a commonly-held guideline: \"More complicated positions can usually be evaluated by ignoring like pieces.\" They did so after stating the caveat \"It is assumed that the position is 'typical': in other words, that both sides have organized their forces to reasonable advantage and that neither King is trapped against the side of the board\". Previously (Nalimov, Wirth and Haworth, 1999), I accidentally misquoted this excellent source, omitting both the 'usually' and the typical positions caveat. With fulsome apologies to Beasley and Whitworth for the displaced misquote, this note examines to what extent the guideline holds good."
+      }
+   },
+   {
+      "01Heinz.grobid.tei.xml": {
+         "DOI": "10.1007/3-540-45579-5_18",
+         "Title": "New Self-Play Results in Computer Chess",
+         "Author": [
+            "Ernst Heinz"
+         ],
+         "Abstract": "This paper presents the results of a new self-play experiment in computer chess. It is the first such experiment ever to feature search depths beyond 9 plies and thousands of games for every single match. Overall, we executed 24,000 self-play games (3,000 per match) in one \"calibration\" match and seven \"depth X+1 \u21d4 X\" handicap matches at fixed iteration depths ranging from 5-12 plies. For the experiment to be realistic and independently repeatable, we relied on a state-of-the-art commercial contestant: Fritz 6, one of the strongest modern chess programs available. The main result of our new experiment is that it shows the existence of diminishing returns for additional search in computer chess selfplay by Fritz 6 with 95% statistical confidence. The average rating gain per search iteration shrinks by half from 169 ELO at 6 plies to 84 ELO at 12 plies. The diminishing returns manifest themselves by declining rates of won games and reversely increasing rates of drawn games for the deeper searching program versions. Their rates of lost games, however, remain quite steady for the whole depth range of 5-12 plies."
+      }
+   },
+   {
+      "01Howard.grobid.tei.xml": {
+         "DOI": "10.1016/s0191-8869(00)00095-7",
+         "Title": "Searching the real world for signs of rising population intelligence",
+         "Author": [
+            "Robert Howard"
+         ],
+         "Abstract": "Average raw scores on IQ tests have been rising for decades but it still is controversial whether population intelligence really is increasing. The present study looked at several real world indicators for evidence of a rise. First, the prevalence of mild mental retardation in the US population and elsewhere has been steadily declining for decades. Second, players in various intellectual games, particularly chess but to a lesser extent bridge and go, are reaching high performance levels at earlier and earlier ages. There are many more prodigies. Third, scienti\u00aec productivity, measured by number of journal articles and patents awarded, has risen greatly over the last few decades, even though much top intellectual talent may be shifting from science. Finally, I surveyed perceptions of teachers who had taught in high schools for over 20 years. Most reported perceiving that average general intelligence, ability to do school work, and literacy skills of school children had not risen since 1979 but most believed that childrens's practical ability had increased. Most reported perceiving a decline in students's motivation, which may be aecting their perceptions of general intelligence. All these trends have various possible causes other than rising intelligence. However, together, and with other recent empirical evidence, most indicators suggest population intelligence really could be rising."
+      }
+   },
+   {
+      "01JacobFaulhaber.grobid.tei.xml": {
+         "DOI": "10.1524/auto.1985.33.112.325b",
+         "Title": "Erkl\u00e4rungsmodell f\u00fcr Schachexpertise",
+         "Author": [
+            "Verena Jakob",
+            "J\u00f6rg Faulhaber"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01Jeays.pdf": {
+         "DOI": "10.1093/acprof:oso/9780195333169.003.0002",
+         "Title": "A brief survey of psychological studies of chess",
+         "Author": [
+            "Mark Jeays"
+         ],
+         "Abstract": "A brief survey of psychological studies of chess I wrote this as a 3rd year term paper for my Human Information Processing class. The paper is presented in its original form although I may make odd minor corrections from time to time. Chess is an ancient game of skill. It is one of the few such popular games that is devoid of luck. As a result, it has been a popular choice of topic for psychological research, as it provides psychologists with insights into how humans think about problems. Chess has also been a very popular choice for artificial intelligence implentations, and the results have been very successful. For the first time last year, a computer program beat the world champion in a game with regulation time controls. The main question in psychological studies of chess is the following: how are better players able to win more often? Several factors have been investigated but there are no certain physiological advantages that always lead to better chess-playing. The most common finding of studies is that experience plays a great part in determining one's ability, which is certainly a promising thought for mediocre players. In essence, no chess gene has been found. This paper will provide an overview of psychological research into chess, with an emphasis on theories that have been proven inaccurate by future research, to show the development o research in this field. As with any other branch of psychology, theories are made, and then refined when conflicting experimental evidence becomes available."
+      }
+   },
+   {
+      "01KendallWhitwell.grobid.tei.xml": {
+         "DOI": "10.1109/cec.2001.934299",
+         "Title": "An Evolutionary Approach for the Tuning of a Chess Evaluation Function using Population Dynamics",
+         "Author": [
+            "Graham Kendall",
+            "Glenn Whitwell"
+         ],
+         "Abstract": "Using the game of chess, this paper proposes an approach for the tuning of evaluation function parameters based on evolutionary algorithms. We introduce an iterative method for population member selection and show how the resulting win, loss, or draw information from competition can be used in conjunction with the statistical analysis of the population to develop evaluation function parameter values. A population of evaluation function candidates are randomly generated and exposed to the proposed learning techniques. An analysis to the success of learning is given and the undeveloped and developed players are examined through competition against a commercial chess program."
+      }
+   },
+   {
+      "01Koenig.pdf": {
+         "DOI": "10.1016/b978-0-12-372512-7.00011-0",
+         "Title": "Agent-Centered Search",
+         "Author": [
+            "Sven Koenig"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01KosaraMiksch.grobid.tei.xml": {
+         "DOI": "10.1109/infvis.2001.963286",
+         "Title": "Semantic Depth of Field",
+         "Author": [
+            "Robert Kosara",
+            "Silvia Miksch",
+            "Helwig Hauser"
+         ],
+         "Abstract": "We present a new technique called Semantic Depth of Field (SDOF) as an alternative approach to focus-andcontext displays of information. We utilize a well-known method from photography and cinematography (depth-offield effect) for information visualization, which is to blur different parts of the depicted scene in dependence of their relevance. Independent of their spatial locations, objects of interest are depicted sharply in SDOF, whereas the context of the visualization is blurred. In this paper, we present a flexible model of SDOF which can be easily adopted to various types of applications. We discuss pros and cons of the new technique, give examples of application, and describe a fast prototype implementation of SDOF."
+      }
+   },
+   {
+      "01LaneChengGobet.grobid.tei.xml": {
+         "DOI": "10.1017/s0140525x01350100",
+         "Title": "The CHREST Model of Active Perception and its Role in Problem Solving",
+         "Author": [
+            "Bernhard Hommel",
+            "Jochen Musseler",
+            "Gisa Aschersleben",
+            "Wolfgang Prinz",
+            "Peter Lane",
+            "Peter C-H Cheng",
+            "Fernand Cheng",
+            "Fernand Gobet"
+         ],
+         "Abstract": "We discuss the relation of TEC to a computational model of expert perception, CHREST, based on the chunking theory. TEC's status as a verbal theory leaves several questions unanswerable, such as the precise nature of internal representations used, or the degree of learning required to obtain a particular level of competence: CHREST may help answer such questions."
+      }
+   },
+   {
+      "01LeveneFenner b.grobid.tei.xml": {
+         "DOI": "10.1016/s0004-3702(01)00072-8",
+         "Title": "The Effect of Mobility on Minimaxing of Game Trees with Random Leaf Values",
+         "Author": [
+            "Mark Levene",
+            "Trevor Fenner"
+         ],
+         "Abstract": "Random minimaxing, introduced by Beal and Smith [3], is the process of using a random static evaluation function for scoring the leaf nodes of a full width game tree and then computing the best move using the standard minimax procedure. The experiments carried out by Beal and Smith, using random minimaxing in Chess, showed that the strength of play increases as the depth of the lookahead is increased. We investigate random minimaxing from a combinatorial point of view in an attempt to gain a better understanding of the utility of the minimax procedure and a theoretical justification for the results of Beal and Smith's experiments. The concept of domination is central to our theory. Intuitively, one move by white dominates another move when choosing the former move would give less choice for black when it is black's turn to move, and subsequently more choice for white when it is white's turn to move. We view domination as a measure of mobility and show that when one move dominates another then its probability of being chosen is higher. We then investigate when the probability of a \"good\" move relative to the probability of a \"bad\" move\" increases with the depth of search. We show that there exist situations when increased depth of search is \"beneficial\" but that this is not always the case. Under the assumption that each move is either \"good\" or \"bad\", we are able to state sufficient conditions to ensure that increasing the depth of search increases the strength of play of random minimaxing. If the semantics of the game under consideration match these assumptions then it is fair to say that random minimaxing appears to follow a reasonably \"intelligent\" strategy. In practice domination does not always occur, so it remains an open problem to find a more general measure of mobility in the absence of domination."
+      }
+   },
+   {
+      "01LeveneFenner.grobid.tei.xml": {
+         "DOI": "10.1016/s0004-3702(01)00072-8",
+         "Title": "The effect of mobility on minimaxing of game trees with random leaf values",
+         "Author": [
+            "Mark Levene",
+            "Trevor Fenner"
+         ],
+         "Abstract": "Random minimaxing, introduced by Beal and Smith [ICCA J. 17 (1994) 3-9], is the process of using a random static evaluation function for scoring the leaf nodes of a full width game tree and then computing the best move using the standard minimax procedure. The experiments carried out by Beal and Smith, using random minimaxing in Chess, showed that the strength of play increases as the depth of the lookahead is increased. We investigate random minimaxing from a combinatorial point of view in an attempt to gain a better understanding of the utility of the minimax procedure and a theoretical justification for the results of Beal and Smith's experiments. The concept of domination is central to our theory. Intuitively, one move by white dominates another move when choosing the former move would give less choice for black when it is black's turn to move, and subsequently more choice for white when it is white's turn to move. We view domination as a measure of mobility and show that when one move dominates another then its probability of being chosen is higher. We then investigate when the probability of a \"good\" move relative to the probability of a \"bad\" move increases with the depth of search. We show that there exist situations when increased depth of search is \"beneficial\" but that this is not always the case. Under the assumption that each move is either \"good\" or \"bad\", we are able to state sufficient conditions to ensure that increasing the depth of search increases the strength of play of random minimaxing. If the semantics of the game under consideration match these assumptions then it is fair to say that random minimaxing appears to follow a reasonably \"intelligent\" strategy. In practice domination does not always occur, so it remains an open problem to find a more general measure of mobility in the absence of domination."
+      }
+   },
+   {
+      "01LevinsonWeber b.pdf": {
+         "DOI": "10.1007/3-540-45579-5_9",
+         "Title": "Chess Neighborhoods, Function Combination, and Reinforcement Learning",
+         "Author": [
+            "Robert Levinson",
+            "Ryan Weber"
+         ],
+         "Abstract": "Over the years, various research projects have attempted to develop a chess program that learns to play well given little prior knowledge beyond the rules of the game. Early on it was recognized that the key would be to adequately represent the relationships between the pieces and to evaluate the strengths or weaknesses of such relationships. As such, representations have developed, including a graph-based model. In this paper we extend the work on graph representation to a precise type of graph that we call a piece or square neighborhood. Specifically, a chessboard is represented as 64 neighborhoods, one for each square. Each neighborhood has a center, and 16 satellites corresponding to the pieces that are immediately close on the 4 diagonals, 2 ranks, 2 files, and 8 knight moves related to the square. Games are played and training values for boards are developed using temporal difference learning, as in other reinforcement learning systems. We then use a 2-layer regression network to learn. At the lower level the values (expected probability of winning) of the neighborhoods are learned and at the top they are combined based on their product and entropy. We report on relevant experiments including a learning experience on the Internet Chess Club (ICC) from which we can estimate a rating for the new program. The level of chess play achieved in a few days of training is comparable to a few months of work on previous systems such as Morph which is described as \"one of the best from-scratch game learning systems, perhaps the best\" [22]."
+      }
+   },
+   {
+      "01LevinsonWeber.grobid.tei.xml": {
+         "DOI": "10.1007/3-540-45579-5_9",
+         "Title": "Chess Neighborhoods, Function Combination, and Reinforcement Learning",
+         "Author": [
+            "Robert Levinson",
+            "Ryan Weber"
+         ],
+         "Abstract": "Over the years, various research projects have attempted to develop a chess program that learns to play well given little prior knowledge beyond the rules of the game. Early on it was recognized that the key would be to adequately represent the relationships between the pieces and to evaluate the strengths or weaknesses of such relationships. As such, representations have developed, including a graph-based model. In this paper we extend the work on graph representation to a precise type of graph that we call a piece or square neighborhood. Specifically, a chessboard is represented as 64 neighborhoods, one for each square. Each neighborhood has a center, and 16 satellites corresponding to the pieces that are immediately close on the 4 diagonals, 2 ranks, 2 files, and 8 knight moves related to the square. Games are played and training values for boards are developed using temporal difference learning, as in other reinforcement learning systems. We then use a 2-layer regression network to learn. At the lower level the values (expected probability of winning) of the neighborhoods are learned and at the top they are combined based on their product and entropy. We report on relevant experiments including a learning experience on the Internet Chess Club (ICC) from which we can estimate a rating for the new program. The level of chess play achieved in a few days of training is comparable to a few months of work on previous systems such as Morph which is described as \"one of the best from-scratch game learning systems, perhaps the best\" [22]."
+      }
+   },
+   {
+      "01Lorenz.grobid.tei.xml": {
+         "DOI": "10.1145/378580.378737",
+         "Title": "Parallel Controlled Conspiracy Number Search",
+         "Author": [
+            "Ulf Lorenz"
+         ],
+         "Abstract": "\u00cc \u00d6 \u00d7 \u00d6 \u00d0"
+      }
+   },
+   {
+      "01MarmecheDidierjean.grobid.tei.xml": {
+         "DOI": "10.1080/09541440042000106",
+         "Title": "Is generalisation conservative? A study with novices in chess",
+         "Author": [
+            "Evelyne Marm\u00e8che",
+            "Andr\u00e9 Didierjean"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01Mattlage.pdf": {
+         "DOI": "10.1097/tp.0000000000001574",
+         "Title": "An Essay On Circular Chess. A Modest Proposal",
+         "Author": [
+            "Alan Mattlage"
+         ],
+         "Abstract": "A Modest Proposal by Alan Mattlage Modifying Chess strikes most advanced Chess players as about as worthwhile as modifying the Mona Lisa. Why tamper with genius? Nonetheless, below is an outline of a new version of Chess which may prove to be more than a curiosity."
+      }
+   },
+   {
+      "01Melnikov.grobid.tei.xml": {
+         "DOI": "10.1007/bf02832307",
+         "Title": "Heuristics in Programming of Nondeterministic Games",
+         "Author": [
+            "B Melnikov"
+         ],
+         "Abstract": "In the paper, an approach to programming of nondeterministic antagonistic games is considered. This approach may be viewed as a generalization of the classical approach used for deterministic games (chess and the like) and is alternative to neural network methods of programming, which are usually applied to nondeterministic games. As examples of nondeterministic games, the very simple game omega and classical backgammon are considered. Results of programming these games are briefly discussed."
+      }
+   },
+   {
+      "01MoraMoriyon.grobid.tei.xml": {
+         "DOI": "10.1007/0-306-47533-2_24",
+         "Title": "Guided Collaborative Chess Tutoring through Game History Analysis",
+         "Author": [
+            "Miguel Mora",
+            "Roberto Moriy\u00f3n"
+         ],
+         "Abstract": "In this paper we introduce ChessEdu, a collaborative application that allows several people connected to the Internet to practise and learn chess in a guided setting. The main feature of ChessEdu is the use of representations of chess game histories, analysis and related annotations, which enhance the guidance of the teaching process. ChessEdu game histories play an important role from the didactic point of view, since they allow tutors to review what students have done and to guide their work. Annotations to the histories also allow tutors to include links to simplified positions. In this way, students learn chess by working on simple examples related to their previous wrong decisions in their game. ChessEdu is the first step in the definition of a framework to simplify the development of guided collaborative tutoring applications in a much broader context. 1."
+      }
+   },
+   {
+      "01Muller.grobid.tei.xml": {
+         "DOI": "10.1016/s0004-3702(01)00085-6",
+         "Title": "Global and local game tree search",
+         "Author": [
+            "Martin Uller"
+         ],
+         "Abstract": "Computer programs based on minimax search have achieved great success, solving a number of classic games including Gomoku and Nine Men's Morris, and reaching a performance that approaches or surpasses the best human players in other well-known games such as checkers, Othello and chess. All these high-performance game-playing programs use global search methods, which evaluate complete game positions. Local search is an alternative approach that works well in the case where a game state can be partitioned into independent subgames. The method of decomposition search [M. M uller, in: IJCAI-99, 1999, p. 578] can solve such games by a combination of local combinatorial game search with evaluation techniques from combinatorial game theory. We compare local and global search in endgame problems in the game of Go, which has been traditionally regarded as beyond the range of exact search-based solution methods. An endgame solver based on decomposition search can solve problems with solution lengths exceeding 60 moves."
+      }
+   },
+   {
+      "01ReingoldCharness.pdf": {
+         "DOI": "10.3758/bf03196185",
+         "Title": "Perceptual automaticity in expert chess players: Parallel encoding of chess relations",
+         "Author": [
+            "Eyal Reingold",
+            "Neil Charness",
+            "Richard Schultetus",
+            "Dave Stampe"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01ReingoldCharnessPomplunStampe.grobid.tei.xml": {
+         "DOI": "10.1111/1467-9280.00309",
+         "Title": "VISUAL SPAN IN EXPERT CHESS PLAYERS: Evidence From Eye Movements",
+         "Author": [
+            "Eyal Reingold",
+            "Neil Charness",
+            "Marc Pomplun",
+            "Dave Stampe"
+         ],
+         "Abstract": "The reported research extends classic findings that after briefly viewing structured, but not random, chess positions, chess masters reproduce these positions much more accurately than lessskilled players. Using a combination of the gaze-contingent window paradigm and the change blindness flicker paradigm, we documented dramatically larger visual spans for experts while processing structured, but not random, chess positions. In addition, in a checkdetection task, a minimized 3 \u00d7 3 chessboard containing a King and potentially checking pieces was displayed. In this task, experts made fewer fixations per trial than less-skilled players, and had a greater proportion of fixations between individual pieces, rather than on pieces. Our results provide strong evidence for a perceptual encoding advantage for experts attributable to chess experience, rather than to a general perceptual or memory superiority."
+      }
+   },
+   {
+      "01ReitmayrSchmalstieg.grobid.tei.xml": {
+         "DOI": "10.1109/isar.2001.970521",
+         "Title": "Mobile Collaborative Augmented Reality",
+         "Author": [
+            "Gerhard Reitmayr",
+            "Dieter Schmalstieg"
+         ],
+         "Abstract": "The combination of mobile computing and collaborative Augmented Reality into a single system makes the power of computer enhanced interaction and communication in the real world accessible anytime and everywhere. This paper describes our work to build a mobile collaborative Augmented Reality system that supports true stereoscopic 3D graphics, a pen and pad interface and direct interaction with virtual objects. The system is assembled from offthe-shelf hardware components and serves as a basic test bed for user interface experiments related to computer supported collaborative work in Augmented Reality. A mobile platform implementing the described features and collaboration between mobile and stationary users are demonstrated."
+      }
+   },
+   {
+      "01Saariluoma.grobid.tei.xml": {
+         "DOI": "10.1007/978-3-662-07811-2_8",
+         "Title": "Chess and content-oriented psychology of thinking",
+         "Author": [
+            "Pertti Saariluoma"
+         ],
+         "Abstract": "In this paper a number of principles for content-oriented cognitive psychology will be presented in the context of research into chess players' information processing. It will be argued that modern theoretical concepts of attention, imagery and memory are based on underlying concepts of capacity and format and that these concepts are not sufficiently powerful to express all phenomena associated with mental contents. Instead, one must develop a genuinely content-oriented theoretical language to discuss, for example, contents and their integration into thinking. The main problem is how to explain the contents of representations. Why do representations have precisely the contents that they have. Here the main attention will be focussed on the question how can one explain the selection of content elements in representations. To formulate the basic concepts of contentoriented thought research several issues must be discussed. Firstly, it will be shown that traditional attention and memory research is capacity-oriented and therefore unable to express mental contents. Secondly, it will be argued that there are content phenomena which must be explained by properties of other content phenomena. Thirdly, it will be shown that in chess, people integrate information into representations by using functional rules or reasons, i.e. concepts and rules, which tell why some information contents must be included in a representation. It will then be shown that people integrate information around learned 'thought models' whose contents, together with functional rules or reasons, explain and clarify the contentstructure of a mental representation. It will also be argued that the analysis of contents is metascientifically closer to linguistics with its basic method of explication and content analysis than natural sciences, which form the most common underlying model in current experimental psychology. Finally, content-oriented cognitive psychology and its presuppositions will be compared with neural and computational approaches to show that it gives an additional and alternative theoretical resource, but not a contradictory conceptual platform, to the previous theoretical ways of working with human thinking."
+      }
+   },
+   {
+      "01SaariluomaLaine a.grobid.tei.xml": {
+         "DOI": "10.1111/1467-9450.00224",
+         "Title": "What do computer models of cognition explain: A reply to",
+         "Author": [
+            "Pertti Gobet",
+            "Tei Saariluoma",
+            "Tei Laine"
+         ],
+         "Abstract": "The differences between Gobet's views and ours call attention to some points concerning the argumentative status of computational models. If we have two fundamentally different models which reasonably accurately simulate a phenomenon, we must ask, what is the argumentative status of the models in psychological terms. Moreover, if it is possible to present different models of same phenomena, what is the general argumentative power of models in psychology? As the kind of differences between our views and the ones of Gobet's are common in modelling, we briefly call attention to these foundational issues in our paper."
+      }
+   },
+   {
+      "01SaariluomaLaine b .grobid.tei.xml": {
+         "DOI": "10.1111/1467-9450.00223",
+         "Title": "Novice construction of chess memory",
+         "Author": [
+            "Pertti Saariluoma",
+            "Tei Laine"
+         ],
+         "Abstract": "Novice acquisition of skilled recall of chess positions was studied in an experiment in which two novices studied a series of five hundred chess positions during a period of several months. They spent fifteen minutes to half an hour a day teaching themselves these positions. As a result their skill in recalling chess positions rose from sixteen percent to somewhere between forty to fifty percent. The learning curve proved to have a shape which indicates that in the beginning learning is very fast but after some 100 \u00b1150 studied positions the speed of learning decreases substantially. A computer simulation was used to model the results and analyse alternative explanations. Two alternative ways of thinking were tested. In the first, chunk construction was assumed to be based on the neighbourhood of associated pieces. The second model assumed a frequencybased correlative association process. Although the learning curves of the two models are very similar in shape to those of the subjects, the frequency-based associative model gave a better explanation for the data. This is why it is natural to suggest that common co-occurrence in addition to easily recognizable chess-specific characteristics, like colour and type of pieces, guide associative processes during chess players' learning of chess-specific chunks."
+      }
+   },
+   {
+      "01SadikovBratkoKononenko.grobid.tei.xml": {
+         "DOI": "10.1016/j.tcs.2005.09.073",
+         "Title": "Bias and pathology in minimax search",
+         "Author": [
+            "A Sadikov",
+            "I Bratko",
+            "I Kononenko"
+         ],
+         "Abstract": "This article presents the results of experiments designed to gain insight into the effect of the minimax algorithm on the error of a heuristic evaluation function. Two types of effect of minimax are considered: (a) evaluation accuracy (are the minimax backed-up values more accurate than the heuristic values themselves?), and (b) decision accuracy (are moves played by deeper minimax search better than those by shallower search?). The experiments were performed in the KRK chess endgame and in randomly generated game trees. The results show that, counter-intuitively, evaluation accuracy may decline with search depth, whereas at the same time decision accuracy improves with depth. In the article, this is explained by the fact that minimax in combination with a noisy evaluation function introduces a bias into the backed-up evaluations, which masks the evaluation effectiveness of minimax, but this bias still permits decision accuracy to improve with depth. This observed behaviour of minimax in the KRK endgame is discussed in the light of previous studies of pathology in minimax. It is shown that explaining the behaviour of minimax in an actual chess endgame in terms of previously known results requires special care."
+      }
+   },
+   {
+      "01Sakovic.grobid.tei.xml": {
+         "DOI": "10.1142/s0219198913400094",
+         "Title": "GAMES OF INCOMPLETE INFORMATION WITHOUT COMMON KNOWLEDGE PRIORS",
+         "Author": [
+            "J\u00f3zsef S\u00e1kovics",
+            "Pierpaolo Battigalli",
+            "James Bergin",
+            "Roberto Burguet",
+            "Fran\u00e7oise Forges",
+            "Esther Gal-Or",
+            "Joseph Greenberg",
+            "Joe Harrington",
+            "Alejandro Manelli",
+            "Michael Maschler",
+            "Debraj Ray",
+            "Hyun Shin",
+            "Fernando Vega",
+            "Asher Wolinsky"
+         ],
+         "Abstract": "We relax the assumption that priors are common knowledge, in the standard model of games of incomplete information. We make the realistic assumption that the players are boundedly rational: they base their actions on finite-order belief hierarchies. When the different layers of beliefs are independent of each other, we can retain Hars\u00e1nyi's type-space, and we can define straightforward generalizations of Bayesian Nash Equilibrium (bne) and Rationalizability in our context. Since neither of these concepts is quite satisfactory, we propose a hybrid concept, Mirage Equilibrium, providing us with a practical tool to work with inconsistent belief hierarchies. When the different layers of beliefs are correlated, we must enlarge the type-space to include the parametric beliefs. This presents us with the difficulty of the inherent openness of finite belief subspaces. Appealing to bounded rationality once more, we posit that the players believe that their opponent holds a belief hierarchy one layer shorter than they do and we provide alternative generalizations of bne and Rationalizability. Finally, we show that, when beliefs are degenerate point beliefs, the definition of Mirage Equilibrium coincides with that of the generalized bne."
+      }
+   },
+   {
+      "01SchwalbeWalker.grobid.tei.xml": {
+         "DOI": "10.1006/game.2000.0794",
+         "Title": "Zermelo and the Early History of Game Theory",
+         "Author": [
+            "Ulrich Schwalbe",
+            "Paul Walker"
+         ],
+         "Abstract": "In the modern literature on game theory there are several versions of what is known as Zermelo's theorem. It is shown that most of these modern statements of Zermelo's theorem bear only a partial relationship to what Zermelo really did. We also give a short survey and discussion of the closely related but almost unknown work by K\u00f6nig (1927,"
+      }
+   },
+   {
+      "01Seo.grobid.tei.xml": {
+         "DOI": "10.1016/s0004-3702(01)00084-4",
+         "Title": "The PN * -search algorithm: Application to tsume-shogi",
+         "Author": [
+            "Masahiro Seo",
+            "Hiroyuki Iida",
+            "Jos Uiterwijk"
+         ],
+         "Abstract": "This paper proposes a new search algorithm, denoted PN * , for AND/OR tree search. The algorithm is based on proof-number (PN) search, a best-first search algorithm, proposed by Allis et al. [Artificial Intelligence 66 (1) (1994) 91-124], and on Korf's RBFS algorithm [Artificial Intelligence 62 (1) (1993) 41-78]. PN * combines several existing ideas. It transforms a best-first PN-search algorithm into an iterative-deepening depth-first approach. Moreover, it is enhanced by methods such as recursive iterative deepening, dynamic evaluation, efficient successor ordering, and pruning by dependency relations. The resulting algorithm turns out to be highly efficient as witnessed by the experimental results. The PN * algorithm is implemented in a tsume-shogi (Japanese-chess mating-problem) program, and evaluated by testing it on 295 notoriously difficult tsume-shogi problems (one problem has a depth of search of over 1500 plies). The experimental results are compared with those of other programs. The PN * program shows by far the best results, solving all problems but one. Needless to say, it outperforms the best human tsume-shogi problem solvers by far."
+      }
+   },
+   {
+      "01SiewFischer.grobid.tei.xml": {
+         "DOI": "10.1147/sj.402.0410",
+         "Title": "Convergent evolution of protein structure prediction and computer chess tournaments: CASP, Kasparov, and CAFASP",
+         "Author": [
+            "N Siew",
+            "D Fischer"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01WuBeal.grobid.tei.xml": {
+         "DOI": "10.1109/hpdc.2001.945203",
+         "Title": "Parallel Retrograde Analysis On Different Architecture",
+         "Author": [
+            "Ren Wu"
+         ],
+         "Abstract": "Retrograde analysis is an efficient exhaustive search method. It is a.powerfu1 tool that can be used in solving problems where end states have known values but starting states do not. It has been widely used to solve mathematically-precise games such as chess endgames, and is potentially usable in energy-minimization problems. With increasing computing power, both in speed and storage capacity, retrograde analysis will become more and more useful. This paper looks at successful applications to games, the challenges ahead, and the modifications that are required to utilize distributed hardware. The power and the usefulness of retrograde analysis are still limited by the computing resources one has access to. Today, the best sequential retrograde algorithms are capable of solving problems with about IO9 states in a few hours on a standard personal computer. Bigger problems need more powerful computers, or take much longer to solve, or are simply out of reach of today's technologies. Introducing parallelism to retrograde analysis is a natural way to attack the bigger problems. There are today three main architectures available for doing parallel retrograde analysis: namely Symmetric Multiprocessor systems, High-speed network based distributed systems, and Internet based distributed systems. In this paper, we discuss some of the key issues in doing parallel retrograde analysis on these different architectures. Technical challenges are addressed in detail, as well as some examples and proposals. These examples and proposals ure drawn from various board games, but the ideas can be applied to other problem domains."
+      }
+   }
+]

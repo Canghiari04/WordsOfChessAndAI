@@ -1,0 +1,319 @@
+[
+   {
+      "01Alissandrakis.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "Through the Looking-Glass with ALICE -Trying to Imitate using Correspondences",
+         "Author": [
+            "Aris Alissandrakis",
+            "Chrystopher Nehaniv",
+            "Kerstin Dautenhahn"
+         ],
+         "Abstract": "And Alice got the Red Queen off the table, and set it up before the kitten as a model for it to imitate: however, the thing didn't succeed, principally, Alice said, because the kitten wouldn't fold its arms properly. So, to punish it, she held it up to the Looking-glass, that it might see how sulky it was-\"and if you're not good directly,\" she added, \"I'll put you through into Looking-glass House. How would you like THAT? Now, if you'll only attend, Kitty, and not talk so much, I'll tell you all my ideas about Looking-glass House. First, there's the room you can see through the glass-that's just the same as our drawing room, only the things go the other way.\"-Lewis Carroll, Through the Looking Glass (1871)"
+      }
+   },
+   {
+      "01Bean.pdf": {
+         "DOI": null,
+         "Title": "Counting nodes in chess",
+         "Author": [
+            "Richard Bean"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01BolensTaylor.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "CHESS, CLOCKS, AND COUNSELLORS IN CHAUCER'S BOOK OF THE DUCHESS",
+         "Author": [
+            "Guillemette Bolens",
+            "Paul Taylor"
+         ],
+         "Abstract": "This paper is the second in a two-part series on chess and clocks in the Book of the Duchess. In our first paper, \"Chess in Chaucer's Book of the Duchess,\" 1 we showed that Chaucer, in his elegy on the Duchess of Lancaster, carefully disqualifies the Black Knight's imaginative metaphor of chess as a ludic signifier of the process of love and life under the dominance of Fortune, and constructs his own metaphorical reading of the game. Where the Knight had read the fers as a female in need of the protection of the chess king, himself, the poet-audience of his lament, reads the fers more properly as a counsellor (Persian farzan, Latin farcia, French fierce); and, whereas the grieving knight declares he can no longer play the game once his fers is away (665-66), the poet correctly points out that the knight's despair is exaggerated (640-41); for in the game of chess, any pawn can be promoted to a queen. In the course of his inquisition, the poet, playing poun errant, promotes himself, effectively, to a counsellor. 2 We will argue in the pages that follow that the reshaping of the knight's metaphor is the first part of a remedia for his loss. The second part is figured, not as an invention, but by the happenstance of the castle bell sounding that ends both hunt and dream, and which wakes the poet to the composition of the poem which is the terminal portion of a tiered consolation for the Duke of Lancaster's loss. The bell figures time which heals all wounds, and the timing of the bell strokes follows fast upon the closing of the dialogue with the poetdreamer's terse response to the Knight's flat statement of his duchess's death that closes the force of his misconstrued metaphor. At this moment, the hunters' horns blow the end of hart-hunt; and, as the dreamer's eye follows the knight-now erect and mobile after his prostrate posture in grief-up a hill toward a castle, his ear hears the tolling of the castle bell whose twelfth ring is the terminus ante quem of the event and the dream which contains it. The two metaphors, chess and bell, operate as paired foci that have time and wisdom as coordinate remedies for the loss of a loved one caused by the accident of Fortune."
+      }
+   },
+   {
+      "01BudAlbrechtNicholsonZuckerman b.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "Playing \"Invisible Chess\" with Information-Theoretic Advisors",
+         "Author": [
+            "A Bud",
+            "D Albrecht",
+            "A Nicholson",
+            "I Zukerman"
+         ],
+         "Abstract": "Making decisions under uncertainty remains one of the central problems in AI research. Unfortunately, most uncertain real-world problems are so complex that any progress in them is extremely difficult. Games model some elements of the real world, and offer a more controlled environment for exploring methods for dealing with uncertainty. Chess and chess-like games have long been used as a strategically complex testbed for general AI research, and we extend that tradition by introducing an imperfect information variant of chess with some useful properties such as the ability to scale the amount of uncertainty in the game. We discuss the complexity of this game which we call invisible chess, and present results outlining the basic values of invisible pieces in this game. We motivate and describe the implementation and application of two information-theoretic advisors that assist a player of invisible chess to control the uncertainty in the game. We describe our decision-theoretic approach to combining these informationtheoretic advisors with a basic strategic advisor. Finally we discuss promising preliminary results that we have obtained with these advisors."
+      }
+   },
+   {
+      "01Cazaux.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "Is Chess a Hybrid Game ?",
+         "Author": [
+            "Jean-Louis Cazaux"
+         ],
+         "Abstract": "This paper proposes a consistent scenario for Chess birth and evolution. The reader should be forewarned: it is a personal view, therefore it bears a large dose of unavoidable subjectivity. The Pawns are the crest which separates the East from the West in Chess ludic structure. The basic idea is that an eastern form of Chess was developed from the Liubo material and that several elements were later borrowed by Persians or Indians to complete their own form of harmless battle game, from an existing substrate fertilised by a stable Hellenistic influence and Roman contacts. In this process, I fully agree with Averbakh who affirmed that the history of chess cannot be studied without a proper knowledge of the history of other board games 1. Meanwhile, most of similarities and differences between the Chinese and the old Indo-Persian forms are given attempts of explanation."
+      }
+   },
+   {
+      "01Ferguson R.pdf": {
+         "DOI": null,
+         "Title": "USA Junior Chess Olympics Research: Developing Memory and Verbal Reasoning by Robert Ferguson",
+         "Author": [
+            "Robert Ferguson"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01Ginsburg a.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "Realizing a Framework to Create, Support, and Understand Virtual Communities -Mark Ginsburg Realizing a Framework to Create, Support, and Understand Virtual Communities",
+         "Author": [
+            "Mark Ginsburg"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01Ginsburg b.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "GROWING OUT OF ITS SKIN: PRINCIPLES OF THE EVOLUTION AND EXTENSION OF THE INTERNET CHESS CLUB, 1995 TO PRESENT",
+         "Author": [
+            "Mark Ginsburg"
+         ],
+         "Abstract": "The Internet Chess Club, or ICC, is a highly successful virtual gaming community. This paper examines the evolution from its 1995 inception as a pure gaming community to the present day as a successful business with over 26,000 paid members. We give a particular focus on the underlying qualities the ICC possesses in order to succeed and grow such as utilization of real-world credibility indicators (titles), a robust economic system, and mechanisms for user-contributed feature extensions. As ICC expands in scope and scale, its segmentation strategies are analyzed as well as the impact of these extensions on its business strategy. The paper also discusses a novel method of data collection in an online community; the use of a participant/observer software agent to poll the community at regular intervals at collect data as well as promote a voluntary questionnaire as part of its service to the ICC community. Data collected by the agent in its first month of operation are analyzed and discussed."
+      }
+   },
+   {
+      "01Glaser.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "C pherChess By",
+         "Author": [
+            "Adam Glaser",
+            "Emilio Lahr-Vivaz",
+            "Errol Mceachron",
+            "Dave Evans"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01Gordon Lessons from Sun Tzu.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "Enabling and recognizing strategic play in strategy games: Lessons from Sun Tzu",
+         "Author": [
+            "Andrew Gordon"
+         ],
+         "Abstract": "The interactive entertainment genre of the strategy game entertains users by allowing them to engage in strategic play, which should encourage game designers to devote development efforts toward facilitating users that wish to employ commonsense strategies, and to recognize and react to specific user strategies during game play. This paper attempts to"
+      }
+   },
+   {
+      "01Gordon Playing chess with Machiavelli .pdf": {
+         "DOI": null,
+         "Title": "Word Pro - Strategies in Interactive Entertainment.lwp",
+         "Author": [],
+         "Abstract": "Current interactive entertainment is not strategy-aware, in that it does not allow users to execute a wide range of real-world strategies in the context of the artificial environment, it does not recognize when users are trying to execute these strategies, and it does not include software opponents and partners that are capable of executing a varied range of strategies in response to user actions. A solution to this problem is to explicitly identify a broad range of real-world strategies that people would use if the environment of the interactive entertainment were real rather than fiction, to represent these strategies to identify their component features, and to design the entertainment environment so that these component features are supported and recognized. This paper gives an example of how the first two steps of this solution can be done in the political domain by examining 60 explicit strategies outlined in Machiavelli's The Prince."
+      }
+   },
+   {
+      "01Gordon The Representational Requirements of Strategic Planning.pdf": {
+         "DOI": null,
+         "Title": "Word Pro - commonsense2001.lwp",
+         "Author": [],
+         "Abstract": "An analysis of strategies, recognizable abstract patterns of planned behavior, reveals an enormous divide between the kind of planning that artificial intelligence planning systems do and the kind of strategic planning that people do. This paper describes a project to collect and represent strategies on a large scale to identify the representational requirements of strategic planning in order to inform the design of future artificial intelligence planning systems. Three hundred and seventy-two strategies were collected from ten different planning domains. Each was represented at an abstract level and in a preformal manner designed to reveal the planning concepts that each strategy contains. The contents of these representations, consisting of nearly one thousand unique planning concepts, were then collected and organized into forty-eight groups that outline the representational and functional components of strategic planning systems."
+      }
+   },
+   {
+      "01Grieger Fog of war.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "Exploring the Effect of the Fog of War on the Value of Competitive Edges in Land Warfare",
+         "Author": [
+            "Dion Grieger",
+            "Andrew Gill"
+         ],
+         "Abstract": "All other things being equal, possessing a competitive edge over one's adversary in a given component of land warfare is usually thought to translate into improved combat effectiveness. A common assumption is that information is the critical component in which to achieve this. Little is known quantitatively about the robustness of the above two statements to variations in the level of battlefield uncertainty (the so-called fog of war). Recently, other researchers performed experiments using a modified version of chess to test these hypotheses. This paper outlines our attempt to repeat the chessboard experiments using another analogue of warfare based on a computer cellular automata model known as ISAAC. The benefits of doing this include the reduction in uncertainty and output variations by using less subjective players; the ability to obtain more accurate statistics from increased sampling; the capacity to consider more parameter excursions and scenarios, leading to further hypothesis testing; and importantly to test whether the chessboard conclusions are either model or scenario dependent."
+      }
+   },
+   {
+      "01HaCohenKerner - Computer chess and indexing.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "Computer Chess and Indexing",
+         "Author": [
+            "Yaakov Hacohen-Kerner"
+         ],
+         "Abstract": "Overview of computer-chess history The history of computer chess probably began in 1769 with an impressive chess automaton called Turk (1) that had been devised and presented by Baron Wolfgang von Kempelen. This automation looked like a large desk with a chessboard and chess pieces"
+      }
+   },
+   {
+      "01Haworth c.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "3-5 Man Mutual Zugzwangs in Chess 1 3-5 MAN MUTUAL ZUGZWANGS IN CHESS",
+         "Author": [
+            "G Haworth"
+         ],
+         "Abstract": "This note reports the work of Wirth and Karrer in twin-sourcing all mutual zugzwang positions, mzugs, in 2-5-man endgames. This paper tabulates the mzug statistical data, gives examples of maximal mzugs and refers to a chess endgame website where further data is to be found. 1."
+      }
+   },
+   {
+      "01HernandezMateo.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "Success in Chess Mediated by Cognitive-Affective Molds",
+         "Author": [
+            "Pedro Hern\u00e1ndez-Hern\u00e1ndez",
+            "Heriberto Rodr\u00edguez-Mateo"
+         ],
+         "Abstract": "Research has revealed the impact of cognitive-affective strategies (\"molds\") on subjective wellbeing, interpersonal relationships, or school achievement. However, it seems odd that such strategies could influence the success of chess players, because this game is usually considered to be influenced mainly by technical-intellective skills. To examine the influence of cognitiveaffective molds, 53 beginner chess players, ages from 9 to 16 years old, enrolled in sport competitions, were assigned to two groups, high and low success. They responded to the MOLDES and the MEA tests, designed to evaluate individuals' molds. The results show that the more successful players used more realistic, positive, and moderated molds, facing reality, and coping with their failures and emotions appropriately, whereas the less successful players used evasive, imaginative, defensive, and inefficient molds."
+      }
+   },
+   {
+      "01Hirsch.pdf": {
+         "DOI": null,
+         "Title": "In The Spirit of Caissa: The Art of Chess",
+         "Author": [
+            "Ed Hirsch"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01Infantino.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "Strategie simboliche e gestione del conflitto I contributi 1 IL RE, LA REGINA E LA SCACCHIERA? RADICI SIMBOLICHE NELLA GESTIONE",
+         "Author": [
+            "Del Strategica",
+            "Maria Conflitto",
+            "Rainer Rilke",
+            "Maria Infantino"
+         ],
+         "Abstract": "interpretare la parte di un pupazzo in mano al \"Mangiafuoco\" di turno, finendo col restare \"wrapped around his finger\" (\"avvolto attorno al suo dito\"), per usare un efficace idioma inglese, che esprime in maniera figurata una condizione di sottomissione psicologica, proprio attraverso la metafora della marionetta che il burattinaio manovra tirandone i fili."
+      }
+   },
+   {
+      "01Josten.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "CHESS -A LIVING FOSSIL In memoriam",
+         "Author": [
+            "Joachim Petzold",
+            "Gerhard Josten"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01MarslandBjornsson.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "Variable Depth Search 5 VARIABLE DEPTH SEARCH",
+         "Author": [
+            "T Marsland",
+            "Y Bj\u00f6rnsson"
+         ],
+         "Abstract": "This chapter provides a brief historical overview of how variabledepth-search methods have evolved in the last half a century of computer chess work. We focus mainly on techniques that have not only withstood the test of time but also embody ideas that are still relevant in contemporary game-playing programs. Pseudo code is provided for a special formulation of the PVS/ZWS alpha-beta search algorithm, as well for an implementation of the method of singular extensions. We provide some data from recent experiments with Abyss'99, an updated Chinese Chess program. We also pinpoint the current research in forward pruning, since this is where the greatest performance improvements are possible. The work closes with a short summary of the impact of computer chess work on Chinese Chess, Shogi and Go."
+      }
+   },
+   {
+      "01Musser.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "THE BOOK OF GAMES",
+         "Author": [
+            "El Sabio",
+            "Sonja Musser Friday",
+            "Harold Ruthven"
+         ],
+         "Abstract": "Alfonso the Wise's Libros de acedrex dados e tablas form a book of games completed in 1283 (1321 Era Espa\u00f1ola), the year before Alfonso's death. This writing will give an overview of the content of the book, describing the medieval Spanish versions of the games discussed as well as offering a glimpse of their rich symbolism."
+      }
+   },
+   {
+      "01Pachi.pdf": {
+         "DOI": null,
+         "Title": "Delos 64... caselle: scacchi e fantascienza",
+         "Author": [
+            "Luigi Pachi"
+         ],
+         "Abstract": "molto conosciuto, che ha comunque a suo attivo alcune \"perle\" nel campo della narrativa. Parlo dei fantascacchi, quell'insieme di racconti e talvolta romanzi, nei quali il nobil gioco svolge parte importante."
+      }
+   },
+   {
+      "01Perednik.pdf": {
+         "DOI": null,
+         "Title": "Juda\u00edsmo y Ajedrez",
+         "Author": [
+            "Gustavo Perednik"
+         ],
+         "Abstract": "Ayuda a Israel a ganar la opini\u00f3n p\u00fablica! \u00danete a nuestra campa\u00f1a de"
+      }
+   },
+   {
+      "01Pipek.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "Roles, Career and the Fun component: Chess Servers as Virtual Communities of Practice",
+         "Author": [
+            "Volkmar Pipek",
+            "Ralf K\u00f6nig",
+            "Alison Bechdel"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01Reingold.pdf": {
+         "DOI": null,
+         "Title": "Perceptual automaticity in expert chess players: Parallel encoding of chess relations",
+         "Author": [],
+         "Abstract": null
+      }
+   },
+   {
+      "01Ritchie.pdf": {
+         "DOI": null,
+         "Title": "Ken, Unix and Games",
+         "Author": [
+            "D. Ritchie"
+         ],
+         "Abstract": "Ken Thompson's work on chess and Unix are his best-known contributions, but all this work was intertwined with other game and recreational activities. This note describes some of"
+      }
+   },
+   {
+      "01SakutaIida.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "The Performance of PN*, PDS, and PN Search on 6x6 Othello and Tsume-Shogi 1 THE PERFORMANCE OF PN*, PDS, AND PN SEARCH ON 6x6 OTHELLO AND TSUME-SHOGI",
+         "Author": [
+            "M Sakuta",
+            "H Iida"
+         ],
+         "Abstract": "Best-first search algorithms such as proof-number search work well when solving endgame positions in chess-like games. However, it is hard, even for proof-number (PN) search, to solve an endgame problem with very long sequences because of its inherent memory limits. After PN search was developed and had achieved many successes for solving some hard problems, innovations to depth-first search algorithms were based on the idea of proof numbers. This article introduces two such innovative algorithms: PN* and PDS. The PN* algorithm was developed for solving Tsume-Shogi problems, among which one with more than 1500 steps. Then, PDS was proposed to strengthen the power of the PN* algorithm. The current contribution presents an empirical comparison of PN*, PDS, and PN search, as well as some variants of depth-first search on the domains of 6x6 Othello and Tsume-Shogi. The comparison shows that PDS outperforms PN* on the two testbeds. In 6x6 Othello, the PN-search variant does not show its characteristic remarkable advantage over the usual depth-first search algorithms. In Tsume-Shogi, forcing move sequences and sudden terminations play an important part when solving such problems; therefore PN-search variants, in particular PDS, show the expected remarkable advantage over other depth-first searches."
+      }
+   },
+   {
+      "01Schaeffer.pdf": {
+         "DOI": null,
+         "Title": "A Gamut of Games",
+         "Author": [
+            "Jonathan Schaeffer"
+         ],
+         "Abstract": null
+      }
+   },
+   {
+      "01SmithMorey.grobid.tei.xml": {
+         "DOI": null,
+         "Title": "Mental model training wheels: Scaffolding mental imagery with partial sensory support",
+         "Author": [
+            "Glenn Smith",
+            "Jim Morey"
+         ],
+         "Abstract": "Inspired by blindfold chess, laparoscopic surgery and field-stripping of rifles, this study investigated whether partial sensory support can scaffold mental imagery. Will interacting with skeletal 3D virtual shapes without key identifying marks, stimulate people to imagine key portions? This study hypothesized that participants who first trained with such skeletal shapes would perform differently and better on a post-test. The study used an online game, CopyCat, involving rotating and stamping a 3D cube on a 2D pattern. Half the participants encountered occasional \"blanking levels\", where the cube turned white on all six sides at the first rotation, thereby eliminating any visual feedback on sequences of rotations. Preliminary results indicate undergraduate women benefited more from the blanking than did their male counterparts."
+      }
+   },
+   {
+      "01TamplinHaworth.pdf": {
+         "DOI": null,
+         "Title": " Ken Thompson's 6-Man Tables",
+         "Author": [
+            "J Tamplin",
+            "G. Haworth"
+         ],
+         "Abstract": null
+      }
+   }
+]
