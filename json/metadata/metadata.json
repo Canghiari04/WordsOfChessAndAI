@@ -1,0 +1,82 @@
+[
+  {
+    "../articles/16DavidNetanyahuWolf.pdf": {
+      "DOI": "10.1007/978-3-319-44781-0_11",
+      "Title": "DeepChess: End-to-End Deep Neural Network for Automatic Learning in Chess",
+      "Author": "Eli (Omid) David and Nathan S. Netanyahu and Lior Wolf",
+      "Abstract": "Abstract. We present an end-to-end learning method for chess, relying on\nleep neural networks. Without any a priori knowledge, in particular without\nany knowledge regarding the rules of chess, a deep neural network is trained\nusing a combination of unsupervised pretraining and supervised training. The\nunsupervised training extracts high level features from a given position, and\nthe supervised training learns to compare two chess positions and select the\nmore favorable one. The training relies entirely on datasets of several million\nchess games, and no further domain specific knowledge is incorporated.\nThe experiments show that the resulting neural network (referred to as\nDeepChess) is on a par with state-of-the-art chess playing programs, which\nhave been developed through many years of manual feature selection and\ntuning. DeepChess is the first end-to-end machine learning-based method\nthat results in a grandmaster-level chess playing performance.\n\n"
+    }
+  },
+  {
+    "../articles/90GeorgeSchaeffer.pdf": {
+      "DOI": "10.3233/icg-1990-13303",
+      "Title": "Chunking for Experience",
+      "Author": "Michael George and Jonathan Schaeffer",
+      "Abstract": "Abstract\n\nHuman game players rely heavily on the experience gained by playing over\nthe games of masters. A player may recall a previous game to either obtain\nthe best move (if he has previously seen the identical position) or suggest a\nbest move (if similar to others seen). However, game-playing programs\noperate in isolation, relying on the combination of search and programmed\nknowledge to discover the best move, even in positions well-known to\nhumans. At best, programs have only a limited amount of information about\nprevious games. This paper discusses enhancing a chess-playing program to\ndiscover and extract implicit knowledge from previously played grandmaster\ngames, and using it to improve the chess program\u2019s performance. During a\ngame, a database of positions is queried looking for identical or similar posi-\ntions to those on the board. Similarity measures are determined by chunking\nthe position and using these patterns as indices into the database. Relevant\ninformation is subsequently passed back to the chess program and used in its\ndecision making process. As the number of games in the database increases,\nthe \"experience\" available to the program improves the likelihood that\nrelevant, useful information can be found for a given position.\n\n"
+    }
+  },
+  {
+    "../articles/91FeldmannMysliwietzMonien.pdf": {
+      "DOI": null,
+      "Title": "A Fully Distributed Chess Program",
+      "Author": "R. Feldmann and P. Mysliwietz and B. Monien",
+      "Abstract": "ABSTRACT\n\nWe show how to implement the af-enhancements like iterative deepening, transposition tables,\nhistory tables etc. used in sequential chess programs in a distributed system such that the\ndistributed algorithm profits by these heuristics as well as the sequential does. Moreover the\nmethods we describe are suitable for very large distributed systems. We implemented these\na3-enhancements in the distributed chess program ZUGZWANG. For a distributed system of\n64 processors we obtain a speedup between 28 and 34 running at tournament speed. The basis\nfor this chess program is a distributed af-algorithm with very good load balancing properties\ncombined with the use of a distributed transposition table that grows with the size of the\ndistributed system.\n\n"
+    }
+  },
+  {
+    "../articles/83CondonThompson.pdf": {
+      "DOI": "10.1007/978-1-4757-1968-0_28",
+      "Title": "Belle Chess Hardware",
+      "Author": "Joe Condon and Ken Thompson",
+      "Abstract": null
+    }
+  },
+  {
+    "../articles/07Beal.pdf": {
+      "DOI": null,
+      "Title": "Intelligent Systems, Artificial and Human",
+      "Author": "Don Beal",
+      "Abstract": "Abstract. The relationship of computer Chess to intelligence is dis-\ncussed, and it is observed that, although current Chess programs are ba-\nsically unintelligent, programs that learn to play Chess are a new frontier\nin the construction of intelligent systems. The definition of intelligent sys-\ntems is then expanded to include systems in which individual humans are\ncomponents, rather than organizers, of intelligence. From this perspec-\ntive, internet communities and universities are observed to be intelligent\nsystems that are undergoing rapid evolution \u2014 a process that Jaap and\nhis students are actively advancing.\n\n"
+    }
+  },
+  {
+    "../articles/09CiancariniFavini 1.pdf": {
+      "DOI": "10.1145/1536513.1536560",
+      "Title": "Plagiarism detection in game-playing software",
+      "Author": "Paolo Ciancarini and Gian Piero Favini",
+      "Abstract": "ABSTRACT\n\nPlagiarism is a growing issue in the field of game-playing\nsoftware. As new ideas and technologies are successfully im-\nplemented in free and commercial programs, they will be\nreused and revisited by later programs until they become\n\nstandard, but on the ot:\n\nher hand the same phenomenon can\n\nlead to accusations and claims of plagiarism, especially in\ncompetitive scenarios such as computer chess tournaments.\n\nEstablishing whether a\n\nprogram is a \u201cclone\u201d or derivative of\n\nanother can be a difficult and subjective task, left to the\njudgment of the individual expert and often resulting in a\nshade of gray rather than black and white verdicts. Tour-\nnaments judges and directors have to decide how similar is\ntoo similar on a case-by-case basis. This paper presents an\nobjective framework under which similarities between game\nprograms can be judged, using chess as a test case.\n\nCategories and Subject Descriptors\n\nD.2.8 [Software Engineering]: Metrics; K.4.1 [Computers\nand Society]: Public Policy Issues\u2014ethics, intellectual prop-\nerty rights; K.5.1 [Legal Aspects of Computing]: Hard-\nware/Software Protection\n\n"
+    }
+  },
+  {
+    "../articles/ICGA_J_34_2_HHB_Zugzwangs_in_Chess_Studies.pdf": {
+      "DOI": "10.3233/icg-2011-34205",
+      "Title": "Zugzwangs in chess studies",
+      "Author": "G. Haworth and H. M. J. F. van der Heijden and E. Bleicher",
+      "Abstract": "ABSTRACT\n\nVan der Heijden\u2019s ENDGAME STUDY DATABASE IV, HHDBIV, is the definitive collection of\n76,132 chess studies. The zugzwang position or zug, one in which the side to move would\nprefer not to, is a frequent theme in the literature of chess studies. In this third data-mining of\nHHDBIV, we report on the occurrence of sub-7-man zugs there as discovered by the use of\nCQL and Nalimov endgame tables (EGTs). We also mine those Zugzwang Studies in which a\nzug more significantly appears in both its White-to-move (wtm) and Black-to-move (btm)\nforms. We provide some illustrative and extreme examples of zugzwangs in studies.\n\n"
+    }
+  },
+  {
+    "../articles/76Panek.pdf": {
+      "DOI": "10.2307/2924872",
+      "Title": "\"Maelzel's Chess-Player\", Poe's First Detective Mistake",
+      "Author": "Leroy Panek",
+      "Abstract": null
+    }
+  },
+  {
+    "../articles/19Kamlish.pdf": {
+      "DOI": "10.1007/978-94-009-5044-3_16",
+      "Title": "SentiMATE: Learning to play Chess through Natural Language Processing",
+      "Author": "Isaac Kamlish and Isaac Bentata Chocron and Nicholas McCarthy",
+      "Abstract": null
+    }
+  },
+  {
+    "../articles/96Brockington.pdf": {
+      "DOI": "10.3233/icg-1996-19303",
+      "Title": "A taxonomy of parallel game-tree search algorithms",
+      "Author": "Brockington, Mark",
+      "Abstract": null
+    }
+  }
+]
