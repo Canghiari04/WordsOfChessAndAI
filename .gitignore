@@ -162,7 +162,5 @@ cython_debug/
 #.idea/
 
 # Own dir
-/articles/articlesCiancarini
-/articles/articlesBertTest
-/articles/articlesGrobid
-/articles/articlesTEI
+/WordsOfChessAndAI/articles
+/articles
