@@ -2,17 +2,24 @@
 
 Progetto per Tesi Triennale Informatica per il Management (8014) Anno Accademico (2023/2024)
 
-## Informazioni
+### Pre-requisiti
+Prima di eseguire i differenti `Notebook`, è necessario aver già installato:
+- Python 3.10 o versioni più recenti
+- La lista di dipendenze richieste
 
-### Suddivisione dei notebook
-<img src="img/img1.png" align="center" style="margin-bottom: 15px;">
-
-Di seguito seguito è riportato l'ordine cronologico dei file e delle breve osservazioni relative, suddivise in:
-- metadata.ipynb, (osservazioni...)
-- grobid.ipynb, (osservazioni...)
-- multi_label_classification.ipynb, (osservazioni...)
-- missing_metadata.ipynb, (osservazioni...)
-- bertopic.ipynb, (osservazioni...)
-
-### Installazione delle librerie
-Tramite il dependencies manager pip eseguire il comando...
+### Installazione
+1. Clona la reposotory localmente.
+```bash
+git clone https://github.com/Canghiari04/WordsOfChessAndAI.git
+cd pip
+```
+2. Crea un ambiente virtuale.
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+3. Installa le dipendenze.
+```bash
+cd pip/
+pip install -r requirements.txt
+```
