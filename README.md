@@ -2,16 +2,15 @@
 
 Progetto per Tesi Triennale Informatica per il Management (8014) Anno Accademico (2023/2024)
 
-### Pre-requisiti
+## Pre-requisiti
 Prima di eseguire i differenti `Notebook`, è necessario aver già installato:
 - Python 3.10 o versioni più recenti
 - La lista di dipendenze richieste
 
-### Installazione
-1. Clona la reposotory localmente.
+## Installazione
+1. Clona la repository localmente.
 ```bash
 git clone https://github.com/Canghiari04/WordsOfChessAndAI.git
-cd pip
 ```
 2. Crea un ambiente virtuale.
 ```bash
@@ -20,6 +19,6 @@ source .venv/bin/activate
 ```
 3. Installa le dipendenze.
 ```bash
-cd pip/
+cd pip
 pip install -r requirements.txt
 ```
