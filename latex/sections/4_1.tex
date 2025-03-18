@@ -1,0 +1,72 @@
+Problemi di classificazione testuale richiedono una lista di categorie da assegnare ad una collezione di dati. In base alle osservazioni contenute nel dataset, è possibile affermare la presenza di label o meno. Qualora l'insieme di dati racchiuda informazioni etichettate al suo interno, allora saranno presenti una o più classi, contrariamente saranno assenti per risorse non-etichettate. \vspace{7pt} \\
+Per definizione, usufruire di un archivio di documenti comporta alla manipolazione di dati non-strutturati e, a maggior ragione, alla mancanza di etichette. Dal quadro delineato, emerge l'esigenza di identificare un insieme di classi adoperabili durante la fase di annotazione. \vspace{7pt} \\
+Il flusso implementativo che ha caratterizzato il caso di studio ha permesso di realizzare un sistema completamente svincolato dalle etichette scelte, garantendo la capacità di compiere attività di classificazione indipendentemente dai topic selezionati. Questo approccio ha introdotto un livello di astrazione che consente di separare le entità da classificare e le etichette, facilitando il processo di aggiornamento delle categorie mantenendo le stesse osservazioni. \vspace{7pt} \\
+Sfruttando alcuni Large Language Model e conoscenze diffuse in ambito computer chess, sono stati selezionati alcuni topic attribuibili alla raccolta di metadati. È bene precisare che le categorie selezionate non pretendono di essere le uniche utilizzabili, ma rappresentano un solido punto di partenza per valutare la bontà delle classificazioni prodotte dai modelli di machine learning presentati. \vspace{7pt} \\
+In particolare, le categorie impiegate appartengono a tre differenti macro-insiemi, quali:
+\begin{itemize}
+    \renewcommand{\labelitemi}{-}
+    \item \textbf{Etichette ricavate tramite LLM}. \\
+    Le categorie fornite interrogando ChatGPT sono rappresentate da un elenco suddiviso in due livelli distinti: il primo livello definisce il tema generale, mentre il secondo livello approfondisce argomenti più specifici.
+    \begin{table}[H]
+        \begin{tabularx}{\textwidth}{|c|X|X|}
+            \hline
+            \small \textbf{\#} & \small \textbf{Etichette di Primo livello} & \small \textbf{Etichette di Secondo livello} \\
+            \hline
+            \small 1. & \small Algorithmic Approaches & \small Search Techniques, Heuristics and Evaluation, Machine Learning \\
+            \hline
+            \small 2. & \small Architectural Designs & \small Chess Engines, Distributed Systems, Hardware \\
+            \hline
+            \small 3. & \small Game Stages & \small Opening Play, Middlegame Play, Endgame Play \\
+            \hline
+            \small 4. & \small Training and Evaluation & \small Data Sources, Benchmarks, Test Suites \\
+            \hline
+            \small 5. & \small Applications & \small Competitive Play, Education, Research \\
+            \hline
+            \small 6. & \small Ethical and Practical Concerns & \small Cheating Prevention, Fairness in Play, Sustainability \\
+            \hline
+        \end{tabularx}
+        \caption{Tabella contenente le etichette di primo e secondo livello}
+    \end{table}
+    \item \textbf{Etichette di un tema specifico: Entertainment}. \\
+    L'analisi presentata, come è stato più volte ribadito, si formalizza su una precedente pubblicazione accademica, che mira a estrapolare argomenti ricorrenti dalla stessa collezione di articoli scientifici su cui si formalizza il caso di studio. Esaminando gli esperimenti descritti, sono state realizzate alcune prove utilizzando un elenco di topic relativi a una tematica specifica della letteratura trattata, incentrata su \textbf{Entertainment}. Questo stesso elenco è stato impiegato per tentare di classificare il contenuto dei documenti.
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|c|c|}
+            \hline
+            \small \textbf{\#} & \small \textbf{Etichette} \\
+            \hline
+            \small 1. & \small Historical Evolution of Computer Chess \\
+            \hline
+            \small 2. & \small Famous Matches and Controversies \\
+            \hline
+            \small 3. & \small Cognitive Science Insights \\
+            \hline
+            \small 4. & \small Unsual Chess AI Strategies \\
+            \hline
+            \small 5. & \small Failed Ideas in Computer Chess \\
+            \hline
+            \small 6. & \small Alternative Chess variants and AI \\
+            \hline
+        \end{tabular}
+        \caption{Tabella contenente le etichette relative a Entertainment}
+    \end{table}
+    \item \textbf{Etichette associate alle quattro ere storiche del computer chess}. \\
+    L'obiettivo del lavoro di ricerca citato prevedeva di determinare l'eventuale corrispondenza tra i file PDF e un insieme di classi. La lista delle classi è stata identificata suddividendo la raccolta di pubblicazioni in quattro ere storiche, suggerite dallo studio del professore Paolo Ciancarini, il quale, da esperto della materia, ha individuato gli anni in cui l'intelligenza artificiale ha portato cambiamenti significativi nel gioco degli scacchi. Partendo da queste osservazioni, sono state definite alcune categorie da implementare nella fase di classificazione del caso di studio, con l'intento di coprire il maggior numero possibile di ambiti.
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|c|c|}
+            \hline
+            \small \textbf{\#} & \small \textbf{Etichette} \\
+            \hline
+            \small 1. & \small Chess Playing \\
+            \hline
+            \small 2. & \small Algorithms \\
+            \hline
+            \small 3. & \small Hardware \\
+            \hline
+            \small 4. & \small Machine Learning \\
+            \hline
+        \end{tabular}
+        \caption{Tabella contenente le etichette relative alle quattro ere storiche}
+    \end{table}
+\end{itemize}

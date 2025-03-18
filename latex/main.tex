@@ -1,0 +1,304 @@
+\documentclass[12pt,a4paper,twoside]{book}
+
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+
+\usepackage[a4paper,inner=3.5cm,outer=2.5cm]{geometry}
+\usepackage{parskip}
+\usepackage{indentfirst}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{multirow}
+
+\usepackage{natbib}
+\bibliographystyle{ieeetr}
+\setcitestyle{super,open={[},close={]}}
+
+\usepackage{hyperref}
+
+\usepackage[titletoc,title,toc,page]{appendix}
+\usepackage{chngcntr}
+\counterwithin{table}{chapter}
+\usepackage[capitalize,noabbrev]{cleveref}
+
+\usepackage{newlfont}
+\usepackage{fancyhdr}
+\usepackage{soul}
+\usepackage{xcolor}
+\usepackage{hyphenat}
+\hyphenation{mate-mati-ca recu-perare}
+
+\usepackage{listings}
+\usepackage{verbatim}
+
+\usepackage{tikz}
+\usepackage{lscape}
+
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+
+\newcommand{\rom}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+
+\usepackage{pdfpages}
+
+\lstset{
+  aboveskip=1em,
+  breaklines=true,
+  captionpos=b,
+  escapeinside={\%*}{*)},
+  frame=single,
+  numbers=left,
+  numbersep=15pt,
+  numberstyle=\tiny,
+  basicstyle=\ttfamily\footnotesize
+}
+
+\definecolor{maroon}{cmyk}{0, 0.87, 0.68, 0.32}
+\definecolor{halfgray}{gray}{0.55}
+\definecolor{ipython_frame}{RGB}{207, 207, 207}
+\definecolor{ipython_bg}{RGB}{247, 247, 247}
+\definecolor{ipython_red}{RGB}{186, 33, 33}
+\definecolor{ipython_green}{RGB}{0, 128, 0}
+\definecolor{ipython_cyan}{RGB}{64, 128, 128}
+\definecolor{ipython_purple}{RGB}{170, 34, 255}
+\definecolor{outputcellbg}{RGB}{248,248,248}
+
+\lstdefinelanguage{Python}{
+    morekeywords={access,and,break,class,continue,def,del,elif,else,except,exec,finally,for,from,global,if,import,in,is,lambda,not,or,pass,print,raise,return,try,while},
+    morekeywords=[2]{abs,all,any,basestring,bin,bool,bytearray,callable,chr,classmethod,cmp,compile,complex,delattr,dict,dir,divmod,enumerate,eval,execfile,file,filter,float,format,frozenset,getattr,globals,hasattr,hash,help,hex,id,input,int,isinstance,issubclass,iter,len,list,locals,long,map,max,memoryview,min,next,object,oct,open,ord,pow,property,range,raw_input,reduce,reload,repr,reversed,round,set,setattr,slice,sorted,staticmethod,str,sum,super,tuple,type,unichr,unicode,vars,xrange,zip,apply,buffer,coerce,intern},
+    sensitive=true,
+    morecomment=[l]\#,
+    morestring=[b]',
+    morestring=[b]",
+    morestring=[s]{'''}{'''},
+    morestring=[s]{"""}{"""},
+    identifierstyle=\color{black}\ttfamily,
+    commentstyle=\color{ipython_cyan}\ttfamily,
+    stringstyle=\color{ipython_red}\ttfamily,
+    keepspaces=true,
+    showspaces=false,
+    showstringspaces=false,
+    rulecolor=\color{ipython_frame},
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny\color{halfgray},
+    backgroundcolor=\color{ipython_bg},
+    basicstyle=\scriptsize,
+    keywordstyle=\color{ipython_green}\ttfamily,
+}
+
+\lstdefinestyle{Jupyter}{
+    sensitive=false,
+    keywords={},
+    comment=[l]{\#},
+    morestring=[b]",
+    morestring=[b]',
+    morestring=[s]{'''}{'''},
+    morestring=[s]{"""}{"""},
+    keepspaces=true,
+    showspaces=false,
+    showstringspaces=false,
+    upquote=true,
+    breaklines=true,
+    postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}},
+    breakatwhitespace=true,
+    tabsize=4,
+    basicstyle=\ttfamily\footnotesize,
+}
+
+\begin{document}
+\pagestyle{empty}
+\newgeometry{left=2cm, right=2cm}
+\begin{titlepage}
+\begin{center}
+    {{\Large{\textsc{Alma Mater Studiorum $\cdot$ Università di Bologna}}}}
+    \rule[0.1cm]{\textwidth}{0.1mm}
+    \rule[0.5cm]{\textwidth}{0.6mm}\\
+    {\small{\bf SCUOLA DI SCIENZE\\
+    Corso di Laurea in Informatica per il Management}}
+\end{center}
+
+\vspace{45mm}
+
+\begin{center}
+    \textbf{Tecniche di Topic Extraction e LLM Applicate ad Articoli Scientifici: \vspace{3.5pt} \\ Esperimenti sul Tema Computer Chess}
+\end{center}
+
+\vspace{60mm}
+\par
+\noindent
+\begin{minipage}[t]{0.04\textwidth}
+~
+\end{minipage}
+\begin{minipage}[t]{0.4\textwidth}
+{{\textbf{Relatore:}\\
+Chiar.mo Prof.\\
+Di Iorio Angelo}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}\raggedleft
+{{\textbf{Presentata da}:\\
+Canghiari Matteo}}
+\end{minipage}
+\begin{minipage}[t]{0.04\textwidth}
+~
+\end{minipage}
+
+\vspace{30mm}
+
+\begin{center}
+    {\large{\bf \rom{3} Sessione\\
+    Anno Accademico 2023/2024 }}
+\end{center}
+\end{titlepage}
+
+\restoregeometry
+
+\newpage~\newpage
+
+\pagestyle{plain}
+\pagenumbering{roman}
+\chapter*{Abstract}
+\input{sections/_}
+
+\tableofcontents
+
+\listoffigures
+\listoftables
+\lstlistoflistings
+
+\pagestyle{empty}
+\newpage~\newpage
+\thispagestyle{empty}
+
+\clearpage
+\pagenumbering{arabic}
+\pagestyle{plain}
+
+\chapter{Introduzione}
+\input{sections/1_0}
+
+\chapter{Identificazione di topic: uno sguardo di insieme}
+\label{2.0}
+\input{sections/2_0}
+
+\section{Overview}
+\input{sections/2_1}
+
+\subsection{Dati strutturati e non-strutturati}
+\input{sections/2_1_1}
+
+\subsection{Modelli supervisionati e non-supervisionati}
+\input{sections/2_1_2}
+
+\section{Estrazione e preprocessing dei dati}
+\label{2.2}
+\input{sections/2_2}
+
+\subsection{Estrattori di informazioni da documenti}
+\input{sections/2_2_1}
+
+\subsection{Sistemi di recupero e gestione dei riferimenti}
+\input{sections/2_2_2}
+
+\subsection{Ulteriori strumenti per la manipolazione di PDF}
+\label{2.2.3}
+\input{sections/2_2_3}
+
+\subsection{Preprocessing dei dati}
+\input{sections/2_2_4}
+
+\section{Modelli di classificazione non-supervisionata}
+\label{2.3}
+\input{sections/2_3}
+
+\subsection{Classificazione con Large Language Models}
+\label{2.3.1}
+\input{sections/2_3_1}
+
+\subsection{Classificazione con topic models (BERTopic)}
+\input{sections/2_3_2}
+
+\subsection{Classificazione con modelli self-supervised (BART)}
+\input{sections/2_3_3}
+
+\chapter{Sviluppo estrazione dei metadati}
+\label{3.0}
+\input{sections/3_0}
+
+\section{Passaggi preliminari}
+\label{3.1}
+\input{sections/3_1}
+
+\subsection{Progettazione del dataset}
+\label{3.1.1}
+\input{sections/3_1_1}
+
+\subsection{Progettazione di classi ausiliare}
+\input{sections/3_1_2}
+
+\section{Estrapolazione delle informazioni}
+\input{sections/3_2}
+
+\subsection{Lettura tramite GROBID}
+\label{3.2.1}
+\input{sections/3_2_1}
+
+\subsection{Lettura tramite librerie Python}
+\input{sections/3_2_2}
+
+\subsection{Recupero di riferimenti bibliografici (CrossRef)}
+\label{3.2.3}
+\input{sections/3_2_3}
+
+\subsection{Controllo della validità dei metadati recuperati}
+\label{3.2.4}
+\input{sections/3_2_4}
+
+\subsection{Recupero di riferimenti bibliografici (OpenAlex, arXiv)}
+\input{sections/3_2_5}
+
+\section{Costruzione dei dataset}
+\input{sections/3_3}
+
+\subsection{Considerazioni sui dataset ottenuti}
+\input{sections/3_3_1}
+
+\chapter{Esperimenti con tecniche di classificazione}
+\label{4.0}
+\input{sections/4_0}
+
+\section{Selezione delle etichette}
+\label{4.1}
+\input{sections/4_1}
+
+\section{Classificazione degli articoli in base ai topic}
+\input{sections/4_2}
+
+\subsection{Classificazione secondo LLM}
+\input{sections/4_2_1}
+
+\subsection{Classificazione secondo BART}
+\input{sections/4_2_2}
+
+\subsection{Classificazione secondo BERTopic}
+\label{4.2.3}
+\input{sections/4_2_3}
+
+\section{Analisi degli esiti ottenuti dai modelli di linguaggio}
+\input{sections/4_3}
+
+\section{Esperimento sull'attendibilità di BERTopic}
+\label{4.4}
+\input{sections/4_4}
+
+\chapter{Conclusioni e sviluppi futuri}
+\label{5.0}
+\input{sections/5_0}
+
+\renewcommand{\bibsection}{}
+\chapter*{Riferimenti bibliografici}
+\bibliography{references}
+\end{document}

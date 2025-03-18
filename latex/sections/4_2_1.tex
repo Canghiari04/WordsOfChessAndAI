@@ -1,0 +1,36 @@
+La classificazione secondo Large Language Model (LLM) è stata effettuata utilizzando i modelli di linguaggio naturale forniti da OpenAI, in particolare l'architettura \textbf{GPT-4}. Per interagire con il modello, è stata impiegata una chiave API, integrata all'interno di un agente sviluppato tramite \textbf{LangChain}. \vspace{7pt} \\
+LangChain è un frame-work open-source progettato per semplificare lo sviluppo di operazioni basate su modelli di linguaggio. Il suo scopo principale è facilitare l'integrazione di questi algoritmi, rendendo più accessibili attività che richiedono la comprensione e l'interpretazione di dati testuali. \vspace{7pt} \\
+La decisione di creare un agente specializzato per la classificazione testuale è motivata dall'elevata flessibilità e modularità garantita da tale strumento, caratteristiche che lo rendono adattabile a diversi contesti implementativi. Lo sviluppo dell'agente si è principalmente focalizzato sulla definizione del \textbf{system message}, il quale determina il comportamento atteso dal modello di linguaggio naturale.
+\begin{lstlisting}[language=Python, caption=System message dell'agente classificatore]
+"""
+    ### Goal
+    You are an assistant responsible for classifying sections of scientific papers into specific labels.
+
+    ### Assignments
+    1. **Classification Rules**:
+    - Classify each paper using only the labels listed below.
+    - Each paper can be classified under **one or more labels**.
+    - Only use the provided labels; any classification outside this list is not acceptable.
+
+    2. **Input Format**:
+    The input will be provided as a list in the following format: 
+    ["Paper's title", "Paper's sections"]  
+
+    3. **Output Requirements**:
+    - Output should be a single string.
+    - For each paper, list the title followed by the corresponding labels.
+    - Separate multiple labels with commas (,) and separate papers with semicolons (;).
+
+    5. **Example Output**:
+    - First paper's title: 1.1 Search Techniques, 2.2 Distributed Systems; Second paper's title: 3.2 Middlegame Play, 5.1 Competitive Play
+"""
+\end{lstlisting}
+La stesura del messaggio di sistema segue gli stessi principi illustrati nel Paragrafo \ref{2.3.1}, delineando i compiti da portare a termine e il formato della risposta attesa, progettata per facilitare l'acquisizione dei risultati successivi alla classificazione. \vspace{7pt} \\
+Ottenuta un'istanza dell'agente, il passo successivo prevede di richiamare il metodo \textbf{.invoke()}, affinché sia inviata una richiesta all'API di OpenAI, fornendo in input la lista predefinita di etichette e i dati testuali. In questa circostanza, le informazioni date in ingresso consistono nel contenuto del dominio \textbf{Abstract} del dataset.
+\begin{lstlisting}[language=python, caption=Invocazione e recupero della classificazione dall'agente]
+agent_classificator = AgentClassificator().get_agent()
+response = agent_classificator.invoke(
+              {"labels": labels, "sections": abstracts}
+           ).content
+\end{lstlisting}
+Il risultato ottenuto consiste in una stringa contenente le classificazioni espresse in linguaggio naturale. Per questo motivo, è stato necessario implementare ulteriori funzioni dedicate a estrapolare le categorizzazioni effettuate, concordi con lo stesso formato definito all'interno del system message.

@@ -1,0 +1,25 @@
+Per sincerarsi dell'attendibilità dei metadati ricavati, è stato compiuto lo stesso processo ma in senso opposto, ovvero a partire dai DOI, interrogando l'API di CrossRef, sono stati nuovamente recuperati il titolo e gli autori di ciascun paper affinché fossero confrontati con quelli già in possesso. In questo modo si è avuta la possibilità di accertarsi della validità delle informazioni acquisite. \vspace{7pt} \\
+I risultati emersi dai vari esperimenti hanno evidenziato che la maggior parte delle risorse sono corrette, se non per una piccola porzione di documenti. Esiti ottenuti utilizzando la stessa funzione di similarità introdotta nella sezione precedente (\ref{3.2.3}), focalizzando il confronto di somiglianza tra i titoli e gli abstract degli articoli scientifici.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{lcc}
+        \toprule
+        \textbf{Categoria} & \textbf{Numero di articoli} & \textbf{Percentuale} \\
+        \midrule
+        Articoli & $1952$ & $100\%$ \\
+        \hline
+        Articoli letti & $1770$ & $91\%$ \\
+        \hline
+        Articoli recuperati & $1131$ & $64\%$ \\
+        Articoli non recuperati & $639$ & $36\%$ \\
+        \hline
+        Articoli recuperati & $1131$ & $64\%$ \\
+        \hline
+        Articoli attendibili & $944$ & $83\%$ \\
+        Articoli non attendibili & $187$ & $17\%$ \\
+        \bottomrule
+    \end{tabular}
+    \caption{Tabella contenente gli esiti della fase di estrazione di dati}
+\end{table}
+In particolare, la funzione assegna un punteggio di similarità tra due stringhe date in ingresso. In base al valore attribuito, è possibile determinare se la correlazione tra il documento in possesso rispetto a quello individuato tramite la REST API è valida o meno. Qualora il punteggio sia inferiore a una soglia minima di $0.6$, le informazioni recuperate sono considerate non attendibili. \vspace{7pt} \\
+Concludendo, come indicato dalla tabella, il $9\%$ dei file non è stato leggibile e, di conseguenza, non sono stati nemmeno estratti i metadati associati. Questa problematica è dovuta principalmente al fatto che alcuni PDF della raccolta sono stati ottenuti tramite scansione, piuttosto che creati digitalmente. Pertanto, la qualità del testo contenuto nei documenti non è sufficientemente trattabile dai sistemi di estrazione automatica, impedendo una lettura adeguata e scoraggiando l'estrapolazione delle informazioni.  

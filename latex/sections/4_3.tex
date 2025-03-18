@@ -1,0 +1,118 @@
+I modelli di linguaggio naturale implementati non hanno rispettato le aspettative. Pochissime osservazioni sono state correttamente classificate, testimoniando l'elevata difficoltà di etichettare le informazioni ricavate dall'insieme di documenti, mediante differenti liste predefinite di categorie (\ref{4.1}). \vspace{7pt} \\
+Le tecniche di machine learning sviluppate sono state testate su diversi domini del dataset contenente le risorse in formato originale, ma indipendentemente dalle features utilizzate le etichettature finali non hanno mai evidenziato un netto miglioramento. In relazione agli esperimenti effettuati, sono stati impiegate le seguenti colonne:
+\begin{itemize}
+    \renewcommand{\labelitemi}{-}
+    \item \textbf{Abstract}
+    \item \textbf{Abstract + Introduction}
+    \item \textbf{Title + Abstract + Introduction}
+\end{itemize}
+Seppur banale, è bene precisare che la categorizzazione secondo dati testuali più prolissi, come quelli indicati nell'elenco precedente, ha garantito annotazioni migliori rispetto a quanto sarebbe stato ottenuto tramite combinazioni relative ai titoli e alle keyword estratte, data la mancanza di informazioni al loro interno. Si ricorda che i modelli adottati sfruttano l'interpretazione del linguaggio naturale per adempiere a compiti di Natural Language Processing (NLP), pertanto adoperare dati testuali estesi, in grado di fornire le nozioni necessarie per la loro comprensione, aumenta la probabilità che gli esiti finali coincidano con quanto atteso. \vspace{7pt} \\
+Prima di esprimere le cause che potrebbero aver influito sulla validità delle classificazioni, sono riportate alcune tabelle che descrivono l'andamento delle prove effettuate. Queste ultime mostreranno la superiorità di BART rispetto all'architettura GPT-4, sebbene non sia particolarmente marcata, e la ragione principale che ha spinto ad adeguare esclusivamente il primo modello a discapito del secondo.  
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l|cc|}
+        \hline
+        \textbf{Topic} & \textbf{Numero di articoli} \\
+        \hline
+        Algorithmic Approaches & 496 \\
+        Architectural Designs & 0 \\
+        Game Stages & 11 \\
+        Traning and Evaluation & 0 \\
+        Applications & 428 \\
+        Ethical and Practical Concerns & 71 \\
+        \hline
+        \textbf{Non classificati} & 221 \\
+    \end{tabular}
+    \caption{Classificazione tramite GPT-4 secondo etichette di primo livello}
+\end{table}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l|cc|}
+        \hline
+        \textbf{Topic} & \textbf{Numero di articoli} \\
+        \hline
+        Algorithmic Approaches & 54 \\
+        Architectural Designs & 0 \\
+        Game Stages & 5 \\
+        Traning and Evaluation & 12 \\
+        Applications & 44 \\
+        Ethical and Practical Concerns & 11 \\
+        \hline
+        \textbf{Non classificati} & 855 \\
+    \end{tabular}
+    \caption{Classificazione tramite BART secondo etichette di primo livello}
+\end{table}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l|l|c}
+        \hline
+        \textbf{Topic di Primo livello} & \textbf{Topic di Secondo livello} & \textbf{Numero di articoli} \\
+        \hline
+        & Search Techniques & 0 \\
+        Algorithmic Approaches & Heuristics and Evaluation & 0 \\
+        & Machine Learning & 9 \\
+        \hline
+        & Chess Engines & 6 \\
+        Architectural Designs & Distributed Systems & 2 \\
+        & Hardware & 1 \\
+        \hline
+        & Opening Play & 1 \\
+        Game Stages & Middlegame Play & 2 \\
+        & Endgame Play & 10 \\
+        \hline
+        & Data Sources & 0 \\
+        Training and Evaluation & Benchmarks & 1 \\
+        & Test Suites & 1 \\
+        \hline
+        & Competitive Play & 11 \\
+        Applications & Education & 2 \\
+        & Researh & 91 \\
+        \hline
+        & Cheating Prevention & 0 \\
+        Ethical and Practical Concerns & Fairness in Play & 0 \\
+        & Sustainability & 0 \\
+        \hline
+        & & \\
+        \textbf{Non classificati} & & 844 \\
+        & & \\
+    \end{tabular}
+    \caption{Classificazione tramite BART secondo etichette di secondo livello}
+\end{table}
+Come si può esaminare dai valori riportati, BART ha realizzato classificazioni più attendibili rispetto a GPT-4. In particolare, il Large Language Model ha mostrato una tendenza a omologare le annotazioni, privilegiando le categorie di carattere generale rispetto a classi più specifiche. Infatti, il modello sembra aver operato come se fosse stato "obbligato" ad assegnare un topic a ogni informazione testuale, ignorando sottili differenze semantiche e preferendo categorie il più possibile generali. Una causa di un comportamento simile potrebbe essere ricondotta alla natura generativa dei modelli LLM, i quali tendono a soddisfare la richiesta presentata creando una risposta probabilisticamente plausibile, rendendo la fase di classificazione inconsistente, soprattutto qualora le risorse manipolate presentano strutture testuali articolate e informazioni implicite. Alla luce di quanto emerso, l'opzione di classificazione secondo LLM è stata accantonata per gli esperimenti successivi. \vspace{7pt} \\
+Contrariamente, i risultati ottenuti tramite BART sono stati più soddisfacenti, nonostante non siano stati raggiunti traguardi eccellenti. L'algoritmo, a differenza di GPT-4, ha dimostrato una maggiore capacità critica, adottando durante la classificazione non solo categorie generali, ma anche quelle più specifiche. Un fattore chiave di questa divergenza risiede nel processo di addestramento di BART, che si basa su un ampio corpus di documenti accademici. L'allenamento potrebbe aver contribuito allo sviluppo delle abilità fondamentali per l'interpretazione di contenuti semanticamente complessi, spesso caratterizzati dall'omissione di dettagli espliciti sulla tematica trattata. \vspace{7pt} \\
+Per verificare se la categorizzazione fosse effettivamente problematica a causa delle etichette iniziali, sono stati introdotti \textbf{topic aggiuntivi}, ampliando il contesto dell'analisi. In questo modo, è stato possibile valutare se gli ostacoli presentati fossero legati alla specificità degli argomenti originali oppure ai limiti intrinseci del modello. Di seguito, sono fornite le classificazioni ottenute mediante l'impiego di due elenchi differenti di etichette. 
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l|cc|}
+        \hline
+        \textbf{Topic} & \textbf{Numero di articoli} \\
+        \hline
+        Historical Evolution of Computer Chess & 9 \\
+        Famous Matches and Controversies & 4 \\
+        Cognitive Science Insights & 7 \\
+        Unsual Chess AI Strategies & 0 \\
+        Failed Ideas in Computer Chess & 0 \\
+        Alternative Chess variants and AI & 8 \\
+        \hline
+        \textbf{Non classificati} & 953 \\
+    \end{tabular}
+    \caption{Classificazione tramite BART secondo etichette relative a Entertainment}
+\end{table}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l|cc|}
+        \hline
+        \textbf{Topic} & \textbf{Numero di articoli} \\
+        \hline
+        Chess Playing & 487 \\
+        Algorithms & 63 \\
+        Hardware & 7 \\
+        Machine Learning & 31 \\
+        \hline
+        \textbf{Non classificati} & 393 \\
+    \end{tabular}
+    \caption{Classificazione tramite BART secondo etichette relative alle quattro ere storiche}
+\end{table}
+La classificazione secondo etichette legate a temi di Entertainment in ambito computer chess ha nuovamente evidenziato l'inefficienza del modello pre-addestrato, che ha assegnato soltanto 26 categorie alle informazioni testuali recuperate. \vspace{7pt} \\
+Sebbene BART avesse già mostrato prestazioni insufficienti nella categorizzazione secondo la lista di topic di primo e di secondo livello, si era comunque rivelato più affidabile rispetto al risultato ottenuto con GPT-4. Tuttavia, l'esito di questa fase conferma ulteriormente le sue limitazioni nell'elaborazione di dati testuali complessi. Una possibile spiegazione di quanto accaduto, potrebbe risiedere nell'impiego dello stesso insieme di etichette, caratterizzate da sfumature semantiche molto simili. Questa vicinanza concettuale potrebbe aver contribuito a una sovrapposizione delle categorie, riducendo così la capacità discriminativa del modello. \vspace{7pt} \\
+Concludendo, anche l'ultima etichettatura non ha mostrato netti miglioramenti. In questa circostanza, BART ha omologato la classificazione, impiegando prevalentemente un'unica categoria. L'uso preponderante della classe \textbf{Chess Playing} potrebbe derivare dal fatto che le informazioni testuali appartengono ad articoli scientifici in ambito computer chess. Tuttavia, l'esperimento finale è stato condotto proprio per verificare se il modello di linguaggio fosse in grado di diversificare le classi, obiettivo che, dal quadro delineato, non è stato raggiunto.

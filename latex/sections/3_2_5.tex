@@ -1,0 +1,53 @@
+Il Paragrafo \ref{3.2.4} ha evidenziato l'assenza di alcuni metadati, nonostante CrossRef rappresenti l'infrastruttura contenente il numero maggiore di fonti documentarie. Per questa ragione, sono stati impiegati ulteriori strumenti che offrissero servizi dedicati al recupero dei riferimenti bibliografici, pur sempre inerenti all'ambito accademico. In particolare, sono state sfruttate le REST API fornite da: 
+\begin{itemize}
+    \renewcommand{\labelitemi}{-}
+    \item \textbf{OpenAlex}. \\
+    La decisione di utilizzare OpenAlex è stata motivata dal riconoscimento del suo database come uno degli archivi più completi e autorevoli di conferenze scientifiche, successivamente alla rilevazione della base di dati Microsoft Academic. Il sistema mette a disposizione un wrapper Python dell'API, con lo scopo di facilitarne l'interazione, denominato \textbf{PyAlex}.
+    \item \textbf{arXiv}. \\
+    L'adozione di arXiv è dovuta alla stretta analogia dell'informazioni memorizzate nell'infrastruttura rispetto alla collezione di file PDF su cui si basa il caso di studio. Poiché l'archivio del repository raccoglie risorse relative alle scienze naturali e matematiche, vi è una maggiore probabilità di individuare una corrispondenza con i paper in possesso, dato che si concentrano sull'evoluzione dell'intelligenza artificiale. Come avviene per OpenAlex, il sistema offre un wrapper Python dell'API per semplificare la fase di acquisizione.
+\end{itemize}
+Esposte le motivazioni, sono presentati gli snippet di codice per interrogare le API in questione. La logica di sviluppo, rispetto a CrossRef, non varia significativamente, a parte la formulazione delle richieste HTTP. \vspace{7pt} \\
+OpenAlex organizza la banca dati suddividendola in differenti \textbf{entità} e stabilendo le connessioni fra di esse. A livello implementativo, è quindi necessario individuare quale entità possa soddisfare la richiesta. In questo contesto, dato l'utilizzo di articoli scientifici, è stato adottato il modulo \textbf{Works}, che raccoglie tutti i documenti accademici memorizzati, tra cui tesi, libri, riviste e dataset. Una nota negativa di tale approccio, è dovuta all'impossibilità di specificare gli autori dell'articolo, definendo una minore precisione di ricerca.
+\begin{lstlisting}[language=python, caption=Recupero di riferimenti bibliografici tramite OpenAlex]
+import pyalex
+
+def split_url(url: str) -> str:
+    tokens = url.split("/")
+    return tokens[-2] + "/" + tokens[-1]
+
+for key, value in dict_missing_metadata.items():
+    try:
+        _title = value.get("Title")
+
+        works = pyalex.Works().search_filter(title=value.get("Title")).get()
+
+        for work in works:
+        
+            # Key "doi" in the response contains the paper's DOI as URL
+            doi = work["doi"]
+            title = work["title"]
+            if doi is not None and similar(title, _title) > 0.7:
+                dict_missing_metadata[key]["DOI"] = split_url(doi)
+                break
+    except Exception as e:
+        continue
+\end{lstlisting}
+Contrariamente, \textbf{arxiv} permette di combinare i due parametri. Dopo aver istanziato un oggetto Client, incaricato di gestire la connessione con il server remoto, viene effettuata una ricerca all'interno del repository, formalizzando una query abbinando il titolo e la lista di autori dell'articolo. I risultati della ricerca vengono iterati in modo tale che siano individuate potenziali corrispondenze.
+\begin{lstlisting}[language=python, caption=Recupero di riferimenti bibliografici tramite arXiv]
+import arxiv
+
+arxiv_client = arxiv.Client()
+for key, value in dict_missing_metadata.items():
+    _title = value["Title"]
+    _author = " ".join(value["Author"])
+
+    search = arxiv.Search(query=f"au:{_author} AND ti:{_title}")
+
+    for result in arxiv_client.results(search):
+            try:
+                if similar(result.title, _title) > 0.7:  
+                    print(result.pdf_url) 
+            except Exception:
+                continue
+\end{lstlisting}
+Concludendo, in entrambi i casi, i DOI associati sono ritenuti attendibili solamente se sorpassata la soglia minima di similarità tra le risorse in possesso e quelle ricavate. Malgrado l'applicazione di ulteriori Web API, sono stati recuperati un totale di $6$ fonti bibliografiche, testimoniando quindi la scarsa reperibilità dei documenti mancanti.

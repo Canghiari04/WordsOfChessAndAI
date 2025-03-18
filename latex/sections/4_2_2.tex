@@ -1,0 +1,26 @@
+Per applicare BART è stata implementata un'istanza della classe \textbf{pipeline} della libreria \textbf{transformer}, la quale permette di integrare all'interno di un unico oggetto molteplici parametri. \vspace{7pt} \\
+L'implementazione non ha richiesto significativi sacrifici: realizzata un'istanza della pipeline e definite alcune caratteristiche, il modello può essere utilizzato per compiere la classificazione secondo una lista di etichette predefinite.
+\begin{lstlisting}[language=python, caption=Creazione di un'istanza del modello BART]
+from transformers import pipeline
+
+model = pipeline(task="zero-shot-classification", model="facebook/bart-large-mnli")
+\end{lstlisting}
+Prima di proseguire, è necessario descrivere più dettagliatamente gli attributi riportati nello snippet di codice precedente, in cui si evidenzia:
+\begin{itemize}
+    \renewcommand{\labelitemi}{-}
+    \item \textbf{task}. \\
+    Il primo parametro definisce la tipologia di attività che la pipeline deve eseguire. In questo contesto, il task coincide con una \textbf{zero-shot-classification}, ovvero una classificazione in cui il modello etichetta un insieme di osservazioni secondo un elenco di categorie sconosciute.
+    \item \textbf{model}. \\
+    Il secondo parametro indica quale modello pre-addestrato debba essere adottato per compiere il task delineato. L'algoritmo specificato è \textbf{bart-large-mnli}, una rete neurale basata sull'architettura BART, impiegata per compiti di inferenza linguistica. Questo modello è particolarmente utilizzato per la classificazione zero-shot, poiché è stato allenato per comprendere le relazioni semantiche tra dati in formato testuale.
+\end{itemize}
+Definito il quadro generale, la fase seguente prevede di categorizzare le informazioni ricavate mediante gli elenchi di categorie individuate nel Paragrafo \ref{4.1}. A tal proposito, sono stati realizzati esperimenti per ciascun insieme di etichette, dato che il modello in questione ha garantito i risultati migliori. \vspace{7pt} \\
+Il codice itera sulla di lista di DOI, elaborando solo i testi non vuoti. In tal caso, il testo e l'elenco delle etichette vengono passati al modello di classificazione pre-addestrato. BART assegna a ogni etichetta un valore di similarità rispetto al dato testuale del documento, espresso con un numero reale compreso nell'intervallo $[0,1]$. Solo le categorizzazioni con un punteggio superiore a una soglia minima prestabilita vengono considerate valide. 
+\begin{lstlisting}[language=python, caption=Classificazione dei dati mediante BART]
+dict_scores: Dict[str, Dict] = {}
+for i in range(0, len(dois)):
+    if len(abstract[i]) > 0:
+        dict_classification = model(abstract[i], list_topics)
+        dict_scores[dois[i]] = dict_classification
+\end{lstlisting}
+La classificazione secondo BART ha richiesto la definizione di un \textbf{limite minimo di similarità}. Durante le differenti prove di classificazione, il limite adottato è stato mantenuto per valori pari a $0.5/0.6$. \vspace{7pt} \\
+Con l'espressione limite minimo di similarità si intende una certa soglia numerica che determina se un'associazione tra un elemento e una categoria è sufficientemente rilevante per essere considerata valida. In un processo di classificazione, come quello riportato nello snippet di codice, questa soglia viene applicata ai punteggi di similarità calcolati tra un insieme di dati testuali e un elenco predefinito di etichette.

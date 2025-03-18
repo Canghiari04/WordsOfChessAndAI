@@ -1,0 +1,22 @@
+Il lavoro di questa tesi nasce da una precedente pubblicazione scientifica, in cui un archivio di paper è stato utilizzato per identificare parole chiave e argomenti ricorrenti al loro interno, tramite l'impiego di strumenti di machine learning \cite{Borghesi_2024}. \vspace{7pt} \\
+A tal proposito, la collezione è composta da $1952$ documenti, in formato PDF, diffusi dal $1950$ fino al $2021$, focalizzati sul parallelismo tra il mondo degli scacchi e l'evoluzione dell'intelligenza artificiale, in particolare di quanto quest'ultima abbia influito in ambito computer chess. \vspace{7pt} \\
+Proseguendo, uno degli obiettivi del caso di studio prevede lo sviluppo e il miglioramento del processo di acquisizione dei dati dallo stesso archivio di paper. Pertanto, ciascuna pubblicazione è stata sottoposta ad un processo di estrapolazione di informazioni, affinché il contenuto ricavato fosse elaborato e racchiuso all'interno di un dataframe, definendo in questo modo le variabili in ingresso necessarie per adeguare certi algoritmi di apprendimento automatico (\ref{4.0}). \vspace{7pt} \\
+È importante sottolineare che il flusso implementativo è stato progettato con lo scopo di garantire totale indipendenza tra la costruzione del dataset e l'archivio di file PDF. Questo approccio consente alla logica sviluppata di essere flessibile e adattabile, permettendo di applicarla non solo al caso descritto, ma a qualsiasi raccolta di articoli scientifici, indipendentemente dall'ambito da cui provengano. \vspace{7pt} \\
+All'interno della tabella sottostante, sono introdotti i metadati acquisiti per ciascun file della raccolta, scelti per costituire la lista di domini degli insiemi di dati.
+\begin{table}[H]
+    \begin{tabularx}{\textwidth}{|c|X|X|}
+            \hline
+            \small 1. & \small \textbf{DOI - (Digital Object Identifier)} & \small Identificativo univoco e persistente di una qualsiasi risorsa digitale \\
+            \hline
+            \small 2. & \small \textbf{Title} & \small Titolo dell'articolo scientifico \\
+            \hline
+            \small 3. & \textbf{Author} & \small Autore o lista di autori che abbiano partecipato alla stesura dell'articolo scientifico \\
+            \hline
+            \small 4. & \small \textbf{Keywords} & \small Lista delle parole chiave più significative relative all'articolo scientifico \\
+            \hline
+            \small 5. & \small \textbf{Abstract} & \small Riassunto dell'articolo scientifico privo di interpretazioni o critiche sui temi trattati \\
+            \hline
+            \small 6. & \small \textbf{Introduction} & \small Introduzione dell'articolo scientifico memorizzata nella sua interezza \\
+            \hline
+    \end{tabularx}
+\end{table}

@@ -1,0 +1,20 @@
+Quest'ultimo paragrafo del $\ref{3.0}^{\circ}$ Capitolo, riassume la fase di estrazione di informazioni dalla collezione di documenti, focalizzandosi sui metadati ottenuti. \vspace{7pt} \\
+Uno degli obiettivi del caso di studio, prevede la costruzione di un dataset in cui sia valorizzata la qualità dei dati piuttosto che la quantità reperibile, sperando che questo processo possa giovare alla classificazione degli articoli da parte di tecniche di apprendimento automatico. Per questa principale ragione, i dataframe ottenuti contengono un numero minore di osservazioni rispetto alla cardinalità delle pubblicazioni scientifiche racchiuse all'interno dell'archivio. \vspace{7pt} \\
+La combinazione di GROBID e di librerie Python per la lettura di file PDF si è dimostrata una scelta corretta. Infatti, è stato possibile accedere al contenuto di $1770$ paper su un totale di $1952$. Tuttavia, gli stessi risultati non sono stati raggiunti durante il recupero dei riferimenti bibliografici, poiché è stato possibile ricavare una somma complessiva di Digital Object Identifier (DOI) pari a $1131$, di cui alcuni, come descritto nella sezione \ref{3.2.4}, non sono stati considerati attendibili. Nonostante la mancata correlazione, tali entità sono state preservate all'interno dei dataset, dato che sono contraddistinte sia dal titolo che dall'abstract del lavoro di ricerca. \vspace{7pt} \\
+Di seguito, è presentata una tabella contenente tutti i parametri riepilogativi, confrontati con il numero totale di documenti utilizzati durante l'analisi. La percentuale è rapportata rispetto alla cardinalità complessiva degli articoli.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{lcc}
+        \toprule
+        \textbf{Categoria} & \textbf{Numero di articoli} & \textbf{Percentuale} \\
+        \midrule
+        Articoli & $1952$ & $100\%$ \\
+        \hline
+        Articoli letti & $1770$ & $91\%$ \\
+        Articoli con titolo & $1736$ & $89\%$ \\
+        Articoli con keywords & $1323$ & $68\%$ \\
+        Articoli con titolo e keywords & $1312$ & $67\%$ \\
+        \bottomrule
+    \end{tabular}
+    \caption{Tabella contenente i parametri riepilogativi della fase di estrazione}
+\end{table}

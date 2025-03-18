@@ -1,0 +1,12 @@
+La raccolta di informazioni preventivamente etichettate risulta essere piuttosto impegnativa e costosa. Da questa difficoltà è emersa la necessità di sviluppare modelli alternativi, in grado di categorizzare i dati anche in assenza di esempi etichettati, portando così alla diffusione dei sistemi di classificazione \textbf{Zero-Shot} \cite{vajjala2025textclassificationllmera}. \vspace{7pt} \\
+Con l'espressione Zero-Shot si intende che la fase di apprendimento del modello si basa esclusivamente sulle conoscenze in possesso, senza che siano fornite informazioni previamente classificate.\vspace{7pt} \\
+Tuttavia, dal quadro delineato, emerge l'esigenza di individuare dei modelli che siano in possesso di una vasta gamma di nozioni, spesso riconducibili ai \textbf{Large Language Models (LLM)}. I \textbf{Large Language Models} hanno mostrato notevoli miglioramenti delle proprie prestazioni in differenti task di Natural Language Processing, manifestando capacità sempre più affini alla comprensione del linguaggio naturale, riconosciuti dalla loro discreta abilità di interpretare il significato semantico di un testo \cite{vajjala2025textclassificationllmera}. \vspace{7pt} \\
+Sebbene questo approccio abbia i suoi limiti e i modelli circoscritti non eccellono in tutti i compiti di annotazione del testo, differenti ricerche illustrano numerose circostanze in cui LLM possono produrre classificazioni di alta qualità \cite{pangakis2024knowledgedistillationautomatedannotation}. \vspace{7pt} \\
+Concludendo, qualsiasi classificazione testuale condotta da Large Language Models deve rispettare due condizioni di primaria importanza, quali:
+\begin{itemize}
+    \renewcommand{\labelitemi}{-}
+    \item \textbf{Valorizzare la qualità dei dati piuttosto che la quantità}. \\
+    Dato che modelli LLM basano il loro risultato sul significato semantico del testo, è necessario fornire informazioni che valorizzino la qualità dei dati, magari applicando le stesse operazioni descritte all'interno del Paragrafo \ref{2.2}.
+    \item \textbf{Esprimere in maniera concisa la richiesta di classificazione}. \\
+    L'interazione con modelli generativi avviene principalmente tramite la formulazione di un \textbf{prompt}, ovvero un testo in linguaggio naturale che specifica un'attività da eseguire. Maggiore è la chiarezza e la precisione della richiesta, più alta sarà la probabilità che il modello di apprendimento automatico restituisca il risultato atteso.
+\end{itemize}

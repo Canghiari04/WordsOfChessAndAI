@@ -1,0 +1,25 @@
+Sebbene GROBID abbia garantito ottimi rendimenti, una porzione di risorse dell'archivio non fu compatibile con il servizio, data la conversione in file XML/TEI carenti di contenuti. Per non perdere informazioni preziose si è deciso di impiegare ulteriori librerie Python dedicate alla lettura di file PDF, nella speranza di raccimolare qualche dato aggiuntivo. \vspace{7pt} \\
+A partire dalla lista di oggetti di tipo Metadata, introdotta nel Paragrafo \ref{3.2.1}, sono stati individuati gli articoli privi di parametri. I documenti circoscritti sono stati assegnati al modulo \textbf{PDFReader} del package \textbf{PyPDF}, in maniera tale che fosse possibile accedere alle proprietà dell'istanza successivamente alla lettura dei file.
+\begin{lstlisting}[language=python, caption=Lettura dei documenti PDF tramite la libreria PyPDF]
+pattern = (r"(^.*)?.grobid")
+
+def retrieve_missing_metadata(list_metadata: List[Metadata]):
+    for metadata in list_metadata:
+        if metadata.title is None or len(metadata.author) == 0:
+            pdf_path = re.search(
+                pattern,
+                metadata.path
+            ).group(1) + ".pdf"
+
+            try:
+                _pdfreader = PdfReader(input_dir + pdf_path).metadata
+            except Exception:
+                pass
+             
+            title = _pdfreader.title or None
+            author = _pdfreader.author or []
+
+            _.title = title
+            _.path = pdf_path
+            _.author = define_authors(author)\end{lstlisting}
+Nonostante siano state valutate differenti librerie, è stata implementato un singolo package. La scelta è stata dettata dal fatto che gli esiti ottenuti dalle molteplici librerie non variavano significativamente, distinguendosi principalmente per la velocità di esecuzione. Pertanto, si è optato per una soluzione che garantisse un miglior compromesso tra facilità di sviluppo e prestazioni.

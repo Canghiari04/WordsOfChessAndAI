@@ -1,0 +1,44 @@
+Completata la prima fase di estrazione dei dati, il passaggio consecutivo si concentra sul recupero dei riferimenti bibliografici mediante apposite REST API. La lista di metadati elaborata fino a questo punto, contiene istanze della classe Metadata prive di Digital Object Identifier (DOI). Affinché gli identificativi digitali possano essere acquisiti, occorre interrogare apposite infrastrutture dedicate alla gestione delle fonti documentarie. \textbf{CrossRef} rappresenta in questo contesto l'architettura principale a cui rivolgersi, dato l'elevato ammontare di articoli scientifici presenti al suo interno. \vspace{7pt} \\
+L'organizzazione mette a disposizione una \textbf{Web API} da cui ottenere le informazioni desiderate. Inoltre, sono presenti wrapper Python che ne semplificano l'interazione, permettendo di inviare delle query e di gestire le risposte in modo più agevole. In termini di sviluppo, tra le differenti opzioni, la scelta è ricaduta sul package \textbf{crossref}. \vspace{7pt} \\
+L'implementazione non ha comportato significativi sacrifici: una volta formulata la richiesta HTTP è inviata all'API di CrossRef, concatenando il titolo e la lista di autori del paper circoscritto. Ottenuta la risposta, in base allo \textbf{Status Code}, sono elaborati e confrontati i dati ricevuti.
+\begin{lstlisting}[language=python, caption=Recupero di riferimenti bibliografici tramite CrossRef]
+import time
+import requests
+
+from crossref.restful import Works
+
+work = Works()
+def send_crossref_request(title: str, list_authors: List[str]) -> str:
+    url_request = work.query(
+        bibliographic=title,
+        author=get_authors_string(list_authors)
+    ).url
+    
+    time.sleep(2)
+
+    try:
+        response = requests.get(url_request)
+
+        match response.status_code:
+            case 200:
+                content = response.json()
+                message = content.get("message")
+
+                items = message.get("items")
+                for item in items:
+                    if similar(title, item["title"][0]) > 0.5:
+                        return item["DOI"]
+                                                                
+                    continue
+            case 400:
+                print("Error during request to CrossRef: Bad Request")
+            case _:
+                print("Error during request to CrossRef: WTH")
+    except Exception as e:
+        print("Error during request to CrossRef:", e)\end{lstlisting}
+I dati restituiti sono in formato JSON, pertanto, come riportato dall'esempio, è stato necessario recuperarne il contenuto per poi accedere direttamente alle key interessate. Per ogni potenziale corrispondenza è stata attuata una funzione di similarità, incaricata di calcolare la percentuale di somiglianza rispetto a due stringhe date in input. Solamente nel caso in cui la percentuale superi la soglia minima, i metadati associati sono considerati attendibili.
+\begin{lstlisting}[language=python, caption=Calcolo della similarità tra due stringhe]
+from difflib import SequenceMatcher
+
+def similar(str_1: str, str_2: str) -> float:
+    return SequenceMatcher(None, str_1, str_2).ratio()\end{lstlisting}

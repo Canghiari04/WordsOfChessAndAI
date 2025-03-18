@@ -1,0 +1,25 @@
+Data l'elevata numerosità di paper in formato PDF, sono state implementate alcune classi di supporto in maniera tale da facilitare la fase di estrazione di dati. L'impiego di classi ausiliare, come da titolo esemplificativo, si è rilevato piuttosto utile durante il flusso implementativo, in particolare per il recupero di DOI: le richieste presentate alle REST API, esigono la concatenazione del titolo e della lista di autori dell'articolo scientifico affinché sia ricevuto l'identificativo desiderato. \vspace{7pt} \\
+Lo snippet di codice presentato definisce la classe \textbf{Metadata}, in cui ogni istanza raffigura uno specifico documento. 
+\begin{lstlisting}[language=python, label=lst:Metadata, caption=Classe Metadata]
+class Metadata:
+    def __init__(self, DOI: str, path: str, title: str, author: Author | ...):
+        self.DOI = DOI
+        self.path = path
+        self.title = title
+        self.author = author
+        self.keyword = keyword
+        self.abstract = abstract
+        self.introduction = introduction
+
+    def get_dict(self) -> Dict[str, Dict[str, str | List[Author] | None]]:
+        return {
+            self.path: {
+                "DOI": self.DOI,
+                "Title": self.title,
+                "Author": [item.to_unique() for item in self.author],
+                "Keyword": self.keyword,
+                "Abstract": self.abstract,
+                "Introduction": self.introduction
+            }
+        }
+\end{lstlisting}

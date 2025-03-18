@@ -1,0 +1,13 @@
+In questo paragrafo sono illustrate le differenti tecniche di apprendimento automatico adeguate, assegnando ad ognuna di esse una delle due versioni dell'insieme di dati. Si ricorda che sono stati creati due dataset distinti per soddisfare le esigenze strutturali dei modelli impiegati: per modelli basati su \textbf{linguaggio naturale}, è stato preferito mantenere le risorse nel loro formato originale, mentre per i modelli che richiedono \textbf{rappresentazioni vettoriali}, sono state eseguite alcune operazioni di preprocessing. \vspace{7pt}\\
+Più precisamente, gli strumenti utilizzati sono:
+\begin{itemize}
+    \renewcommand{\labelitemi}{-}
+    \item \textbf{GPT-4}. \\
+    Large Language Model basato sull'architettura GPT, utilizzato per sfruttare le sue capacità di comprensione e generazione di linguaggio naturale. La scelta di mantenere i dati nel formato originale è stata dettata dalla necessità di preservare il contesto semantico, essenziale per ricavare risultati accurati.
+    \item \textbf{BART}. \\
+    Algoritmo pre-allenato particolarmente efficace per attività di generazione e interpretazione del testo. Anche in questa casistica, i dati sono stati mantenuti nel loro formato originale, usufruendo delle capacità del modello di elaborare direttamente il linguaggio naturale.
+    \item \textbf{BERTopic}. \\
+    Modello di topic modeling progettato per manipolare rappresentazioni vettoriali di informazioni testuali. Per questo algoritmo, sono state applicate alcune operazioni di pre-elaborazione volte a migliorare la qualità dei dati disponibili, in maniera tale che la conversione numerica sia più precisa possibile.
+\end{itemize}
+Per tutte e tre le tecniche è stato adottato un approccio \textbf{Zero-Shot}, reso necessario dall'assenza di dati annotati. Approccio che ha permesso di applicare la classificazione avvalendosi delle capacità intrinseche dei modelli di generalizzare su compiti sconosciuti, ovviando previe fasi di allenamento. \vspace{7pt}\\
+Durante lo sviluppo dei differenti esperimenti, sono stati utilizzati specifici domini appartenenti ai dataset. In particolare, è stato deciso di impiegare la feature \textbf{Abstract} e di realizzare una nuova colonna \textbf{Text} combinando \textbf{Title}, \textbf{Abstract} e \textbf{Introduction}, definendo in questo modo un campo che contenesse l'insieme di tutte le informazioni testuali recuperate, destinato ai modelli di classificazione. 
